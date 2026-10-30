@@ -1,35 +1,5 @@
 # Void Rush Changelog
 ## 5.33 10/30/2026
-* **Fix: every Archer talent now works as described**
-    * **Hawkeye:** fully drawn arrows mark an enemy and your follow-up arrows deal +20% to it. Weak Point makes your arrows always crit the mark, Kill Confirmation refreshes and stacks the mark, and Perfect Hunt readies a glowing arrow that pierces enemies for double damage
-    * **Snare Arrow:** shoot while crouching to lay a slowing trap where the arrow lands
-    * **Hunter's Instinct:** enemies you hit glow and you see their health
-    * **Terrain Mastery / Master of Terrain:** bonus arrow damage, doubled when shooting from high ground
-    * **Split Arrow** fires real side arrows and **Ricochet** arrows really bounce to the next enemy
-    * **Rain Marker:** crouch-left-click with your bow to mark an area. Your arrows hit harder inside it, Suppressing Fire slows and weakens enemies there, and Storm of Feathers rains arrows on it
-    * Lightfoot's speed no longer flickers
-* **Fix: Berserker talents now work as described**
-    * **Savage Leap** slams enemies where you land, and no longer stops Undying Rage from working for 2 minutes after every leap
-    * **Undying Rage** only triggers on hits that would really kill you, and you deal +30% damage while it lasts
-    * **Worldsplitter** and **Red Mist** deal the damage they're meant to (they were far too strong), and hit every kind of enemy
-    * **Shatter Armor** empowers your critical axe hits at max Sunder without spending your Sunder stacks
-    * **Sunder** and **Headman's Rhythm** stacks no longer reset on every kill
-    * **Bloodletting** makes enemies really bleed, and **Death Defiance** heals you when you kill a bleeding enemy
-    * **Rushdown** kills give knockback resistance too, **Carnage** kills give bonus damage, and **Red Mist** kills make your frenzy buffs last longer
-    * **Blood Trail** speeds you up while you chase down injured enemies
-* **Fix: class talent area damage is no longer far too strong**
-    * Many talents that splash nearby enemies hit every one of them as hard as a full weapon strike, no matter what they said. They now deal their own share: **Blade Cyclone**, **Riposte**, **Aftershock**, **Supercell**, **Break Formation**, **Judgment Wall**, **Omni Strike**, **Black Lotus**, **Grim Harvest**, **Shadow Trail**, **Drive Through**, **Dragon Pulse** and **Arcane Avatar**. Talents with a fixed number now scale with how hard you hit
-    * **Dragon Pulse** now really gets stronger for each Ki you spend, and **Arcane Avatar**'s orbs scale with your bolts
-    * **Blade Cyclone** and **Shadow Trail** no longer hurt pets, villagers or players you can't fight
-    * Enemies caught by one of these splashes no longer ignore your class talents on your next hit
-* **Fix: arrows no longer float in mid-air after you hit a bow practice target**
-* **Change: bandits fight a lot smarter**
-    * They go after whoever is hurting them most and finish off players who are nearly dead. Sneaking keeps you hidden longer, but they can hear you through walls if you're close and not sneaking
-    * Break line of sight and they search where they last saw you, then give up. They no longer track you through walls
-    * Melee bandits circle you, jump for critical hits, walk around your shield, and throw knives if you pillar up out of reach. Berserker axes knock your shield down for 5 seconds
-    * Archers, Marksmen, Mages and Priests keep their distance, strafe and lead their shots, and escape when you rush them
-    * Bandits can dodge your arrows and throwables (more often in higher tiers), drink healing potions when they're low, and call nearby bandits to help
-    * Bandit Shieldwalls block with a real shield: hit them from the side or back, or break their guard with an axe
 * **New profession: Farming**
     * **Void Farm spots** spawn into new void land as it generates, just like void rifts. Everyone near a spot farms there together, but each player sees only their own farm. Walk away and your farm fades back into the void, then drops in again at the next spot you find, every crop just as you left it
     * **Seeds come from Herbalism:** any plant you harvest can now drop its seed (more often from Herbalism 10)
@@ -62,19 +32,31 @@
 * **New: Holy Idols and Healing Power**
     * Holy Idols are a new off-hand idol for Tiers 1-6, with regular, elite, boss and Voidforged designs. They're the only gear with **Healing Power**, which makes every Priest heal and shield stronger (+10% at Tier 1 up to about +37% at Tier 6, more on elite and boss idols)
     * They drop like other idols: from monsters carrying one, bosses, the Abyssal Crucible and more
-* **Change: Elemental Affinity now strikes with an element**
-    * When it procs, your hit becomes a fire, frost, lightning, venom or shadow strike for **+15% damage**, with its own effects and a message in combat chat
-    * Fire sets the target alight, frost slows it, venom poisons it, shadow withers it, and lightning is pure damage
-    * Proc chances are unchanged
-* **Change: the Abyssal Horror's tentacles grow back**
-    * A killed tentacle bursts back up near the party **15 seconds** later (a ring on the ground warns where), on top of the new tentacles each phase adds, up to 8 at once
-* **Change: tougher Animal Butchery mobs**
-    * Tier 4-6 butchery animals have much more HP: Tier 4 **120** (was 90), Tier 5 **250** (was 110), Tier 6 **~600** (was 130)
-    * Hostile Tier 5-6 animals hit harder: about **27** at Tier 5 (was 16) and **32** at Tier 6 (was 18)
-* **Change: dungeon monster gear is much rarer**
-    * Dungeon monsters now drop **one** piece of their gear on **10%** of kills in Tier 1, **8%** in Tier 2, **2%** in Tier 3, **1%** in Tier 4, **0.4%** in Tier 5 and **0.2%** in Tier 6 (your Luck still raises it). Before, nearly half of all dungeon kills dropped gear at every tier, sometimes several pieces at once
 * **New talent: Soul Siphon** (Utility)
     * Mobs you kill drop **+10% to +50%** more experience orbs (ranks 1-5), handy for paying Mage and Priest spell costs. Mobs that drop no experience still drop none
+* **Fix: every Archer talent now works as described**
+    * **Hawkeye:** fully drawn arrows mark an enemy and your follow-up arrows deal +20% to it. Weak Point makes your arrows always crit the mark, Kill Confirmation refreshes and stacks the mark, and Perfect Hunt readies a glowing arrow that pierces enemies for double damage
+    * **Snare Arrow:** shoot while crouching to lay a slowing trap where the arrow lands
+    * **Hunter's Instinct:** enemies you hit glow and you see their health
+    * **Terrain Mastery / Master of Terrain:** bonus arrow damage, doubled when shooting from high ground
+    * **Split Arrow** fires real side arrows and **Ricochet** arrows really bounce to the next enemy
+    * **Rain Marker:** crouch-left-click with your bow to mark an area. Your arrows hit harder inside it, Suppressing Fire slows and weakens enemies there, and Storm of Feathers rains arrows on it
+    * Lightfoot's speed no longer flickers
+* **Fix: Berserker talents now work as described**
+    * **Savage Leap** slams enemies where you land, and no longer stops Undying Rage from working for 2 minutes after every leap
+    * **Undying Rage** only triggers on hits that would really kill you, and you deal +30% damage while it lasts
+    * **Worldsplitter** and **Red Mist** deal the damage they're meant to (they were far too strong), and hit every kind of enemy
+    * **Shatter Armor** empowers your critical axe hits at max Sunder without spending your Sunder stacks
+    * **Sunder** and **Headman's Rhythm** stacks no longer reset on every kill
+    * **Bloodletting** makes enemies really bleed, and **Death Defiance** heals you when you kill a bleeding enemy
+    * **Rushdown** kills give knockback resistance too, **Carnage** kills give bonus damage, and **Red Mist** kills make your frenzy buffs last longer
+    * **Blood Trail** speeds you up while you chase down injured enemies
+* **Fix: class talent area damage is no longer far too strong**
+    * Many talents that splash nearby enemies hit every one of them as hard as a full weapon strike, no matter what they said. They now deal their own share: **Blade Cyclone**, **Riposte**, **Aftershock**, **Supercell**, **Break Formation**, **Judgment Wall**, **Omni Strike**, **Black Lotus**, **Grim Harvest**, **Shadow Trail**, **Drive Through**, **Dragon Pulse** and **Arcane Avatar**. Talents with a fixed number now scale with how hard you hit
+    * **Dragon Pulse** now really gets stronger for each Ki you spend, and **Arcane Avatar**'s orbs scale with your bolts
+    * **Blade Cyclone** and **Shadow Trail** no longer hurt pets, villagers or players you can't fight
+    * Enemies caught by one of these splashes no longer ignore your class talents on your next hit
+* **Fix: arrows no longer float in mid-air after you hit a bow practice target**
 * **Fix: every Marksman talent works now**
     * **One Shot** and **Modular Quiver** never triggered with the repeating crossbow. They now trigger on your critical hits. One Shot triples a max-Focus crit (the extra damage is capped against bosses) and spends your Focus
     * **Bullet Hell:** crouch + right-click with your crossbow to plant yourself and fire **3x as fast** for 5 seconds. Moving off the spot ends it. Before, it didn't change your fire rate at all
@@ -88,3 +70,21 @@
     * Gear dropped by dungeon monsters now shows its real stats. It was always 1.55x stronger than its tooltip said, which is why the first Upgrade Core on it looked like a huge jump. It also gets its own **✺** symbol in its name, and gear you already have updates the next time you equip it or open a chest or menu
     * Mobs can no longer get stuck as unkillable "ghosts" that keep attacking you
     * The Abyssal Horror no longer floats a block above the ground when summoned from an altar
+* **Change: bandits fight a lot smarter**
+    * They go after whoever is hurting them most and finish off players who are nearly dead. Sneaking keeps you hidden longer, but they can hear you through walls if you're close and not sneaking
+    * Break line of sight and they search where they last saw you, then give up. They no longer track you through walls
+    * Melee bandits circle you, jump for critical hits, walk around your shield, and throw knives if you pillar up out of reach. Berserker axes knock your shield down for 5 seconds
+    * Archers, Marksmen, Mages and Priests keep their distance, strafe and lead their shots, and escape when you rush them
+    * Bandits can dodge your arrows and throwables (more often in higher tiers), drink healing potions when they're low, and call nearby bandits to help
+    * Bandit Shieldwalls block with a real shield: hit them from the side or back, or break their guard with an axe
+* **Change: Elemental Affinity now strikes with an element**
+    * When it procs, your hit becomes a fire, frost, lightning, venom or shadow strike for **+15% damage**, with its own effects and a message in combat chat
+    * Fire sets the target alight, frost slows it, venom poisons it, shadow withers it, and lightning is pure damage
+    * Proc chances are unchanged
+* **Change: the Abyssal Horror's tentacles grow back**
+    * A killed tentacle bursts back up near the party **15 seconds** later (a ring on the ground warns where), on top of the new tentacles each phase adds, up to 8 at once
+* **Change: tougher Animal Butchery mobs**
+    * Tier 4-6 butchery animals have much more HP: Tier 4 **120** (was 90), Tier 5 **250** (was 110), Tier 6 **~600** (was 130)
+    * Hostile Tier 5-6 animals hit harder: about **27** at Tier 5 (was 16) and **32** at Tier 6 (was 18)
+* **Change: dungeon monster gear is much rarer**
+    * Dungeon monsters now drop **one** piece of their gear on **10%** of kills in Tier 1, **8%** in Tier 2, **2%** in Tier 3, **1%** in Tier 4, **0.4%** in Tier 5 and **0.2%** in Tier 6 (your Luck still raises it). Before, nearly half of all dungeon kills dropped gear at every tier, sometimes several pieces at once

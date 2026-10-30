@@ -23,6 +23,13 @@
     * **Blade Cyclone** and **Shadow Trail** no longer hurt pets, villagers or players you can't fight
     * Enemies caught by one of these splashes no longer ignore your class talents on your next hit
 * **Fix: arrows no longer float in mid-air after you hit a bow practice target**
+* **Change: bandits fight a lot smarter**
+    * They go after whoever is hurting them most and finish off players who are nearly dead. Sneaking keeps you hidden longer, but they can hear you through walls if you're close and not sneaking
+    * Break line of sight and they search where they last saw you, then give up. They no longer track you through walls
+    * Melee bandits circle you, jump for critical hits, walk around your shield, and throw knives if you pillar up out of reach. Berserker axes knock your shield down for 5 seconds
+    * Archers, Marksmen, Mages and Priests keep their distance, strafe and lead their shots, and escape when you rush them
+    * Bandits can dodge your arrows and throwables (more often in higher tiers), drink healing potions when they're low, and call nearby bandits to help
+    * Bandit Shieldwalls block with a real shield: hit them from the side or back, or break their guard with an axe
 * **New profession: Farming**
     * **Void Farm spots** spawn into new void land as it generates, just like void rifts. Everyone near a spot farms there together, but each player sees only their own farm. Walk away and your farm fades back into the void, then drops in again at the next spot you find, every crop just as you left it
     * **Seeds come from Herbalism:** any plant you harvest can now drop its seed (more often from Herbalism 10)
@@ -60,6 +67,8 @@
     * Hostile Tier 5-6 animals hit harder: about **27** at Tier 5 (was 16) and **32** at Tier 6 (was 18)
 * **Change: dungeon monster gear is much rarer**
     * Dungeon monsters now drop **one** piece of their gear on **10%** of kills in Tier 1, **8%** in Tier 2, **2%** in Tier 3, **1%** in Tier 4, **0.4%** in Tier 5 and **0.2%** in Tier 6 (your Luck still raises it). Before, nearly half of all dungeon kills dropped gear at every tier, sometimes several pieces at once
+* **New talent: Soul Siphon** (Utility)
+    * Mobs you kill drop **+10% to +50%** more experience orbs (ranks 1-5), handy for paying Mage and Priest spell costs. Mobs that drop no experience still drop none
 * **Fix: every Marksman talent works now**
     * **One Shot** and **Modular Quiver** never triggered with the repeating crossbow. They now trigger on your critical hits. One Shot triples a max-Focus crit (the extra damage is capped against bosses) and spends your Focus
     * **Bullet Hell:** crouch + right-click with your crossbow to plant yourself and fire **3x as fast** for 5 seconds. Moving off the spot ends it. Before, it didn't change your fire rate at all
@@ -68,6 +77,8 @@
     * **Portable Arsenal** now boosts every third shot (it was boosting every shot for some builds)
     * Getting hit now breaks your Focus. **Breath Control** makes a hit cost only 2 Focus
 * **Fixes**
+    * Monster and bandit shields really block now: a raised shield stops hits from the front (melee, arrows and mage bolts). Hit them from the side or behind, or knock the guard down for 5 seconds with an axe
+    * Leaving the game in the middle of a Herbalism harvest no longer leaves its timer running
     * Gear dropped by dungeon monsters now shows its real stats. It was always 1.55x stronger than its tooltip said, which is why the first Upgrade Core on it looked like a huge jump. It also gets its own **✺** symbol in its name, and gear you already have updates the next time you equip it or open a chest or menu
     * Mobs can no longer get stuck as unkillable "ghosts" that keep attacking you
     * The Abyssal Horror no longer floats a block above the ground when summoned from an altar

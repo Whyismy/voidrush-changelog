@@ -88,3 +88,7 @@
     * Hostile Tier 5-6 animals hit harder: about **27** at Tier 5 (was 16) and **32** at Tier 6 (was 18)
 * **Change: dungeon monster gear is much rarer**
     * Dungeon monsters now drop **one** piece of their gear on **10%** of kills in Tier 1, **8%** in Tier 2, **2%** in Tier 3, **1%** in Tier 4, **0.4%** in Tier 5 and **0.2%** in Tier 6 (your Luck still raises it). Before, nearly half of all dungeon kills dropped gear at every tier, sometimes several pieces at once
+* **Change: ranged attacks lose damage over distance**
+    * Arrows from bows and crossbows and staff bolts deal **full damage up to 10 blocks**, then less the further they fly: **75%** at 20 blocks, **40%** at 25, and only **1 damage** from 30 blocks or more. This applies to monsters, bosses and players alike
+* **Change: the Abyssal Horror punishes attacks from afar**
+    * Hit it from **20 blocks or more** away and a ring appears under you. Get off it fast: a tentacle bursts up there, seizes you and hurls you back into the fight

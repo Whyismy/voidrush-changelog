@@ -1,5 +1,28 @@
 # Void Rush Changelog
 ## 5.33 10/30/2026
+* **Fix: every Archer talent now works as described**
+    * **Hawkeye:** fully drawn arrows mark an enemy and your follow-up arrows deal +20% to it. Weak Point makes your arrows always crit the mark, Kill Confirmation refreshes and stacks the mark, and Perfect Hunt readies a glowing arrow that pierces enemies for double damage
+    * **Snare Arrow:** shoot while crouching to lay a slowing trap where the arrow lands
+    * **Hunter's Instinct:** enemies you hit glow and you see their health
+    * **Terrain Mastery / Master of Terrain:** bonus arrow damage, doubled when shooting from high ground
+    * **Split Arrow** fires real side arrows and **Ricochet** arrows really bounce to the next enemy
+    * **Rain Marker:** crouch-left-click with your bow to mark an area. Your arrows hit harder inside it, Suppressing Fire slows and weakens enemies there, and Storm of Feathers rains arrows on it
+    * Lightfoot's speed no longer flickers
+* **Fix: Berserker talents now work as described**
+    * **Savage Leap** slams enemies where you land, and no longer stops Undying Rage from working for 2 minutes after every leap
+    * **Undying Rage** only triggers on hits that would really kill you, and you deal +30% damage while it lasts
+    * **Worldsplitter** and **Red Mist** deal the damage they're meant to (they were far too strong), and hit every kind of enemy
+    * **Shatter Armor** empowers your critical axe hits at max Sunder without spending your Sunder stacks
+    * **Sunder** and **Headman's Rhythm** stacks no longer reset on every kill
+    * **Bloodletting** makes enemies really bleed, and **Death Defiance** heals you when you kill a bleeding enemy
+    * **Rushdown** kills give knockback resistance too, **Carnage** kills give bonus damage, and **Red Mist** kills make your frenzy buffs last longer
+    * **Blood Trail** speeds you up while you chase down injured enemies
+* **Fix: class talent area damage is no longer far too strong**
+    * Many talents that splash nearby enemies hit every one of them as hard as a full weapon strike, no matter what they said. They now deal their own share: **Blade Cyclone**, **Riposte**, **Aftershock**, **Supercell**, **Break Formation**, **Judgment Wall**, **Omni Strike**, **Black Lotus**, **Grim Harvest**, **Shadow Trail**, **Drive Through**, **Dragon Pulse** and **Arcane Avatar**. Talents with a fixed number now scale with how hard you hit
+    * **Dragon Pulse** now really gets stronger for each Ki you spend, and **Arcane Avatar**'s orbs scale with your bolts
+    * **Blade Cyclone** and **Shadow Trail** no longer hurt pets, villagers or players you can't fight
+    * Enemies caught by one of these splashes no longer ignore your class talents on your next hit
+* **Fix: arrows no longer float in mid-air after you hit a bow practice target**
 * **New profession: Farming**
     * **Void Farm spots** spawn into new void land as it generates, just like void rifts. Everyone near a spot farms there together, but each player sees only their own farm. Walk away and your farm fades back into the void, then drops in again at the next spot you find, every crop just as you left it
     * **Seeds come from Herbalism:** any plant you harvest can now drop its seed (more often from Herbalism 10)
@@ -7,7 +30,11 @@
     * **Care decides quality:** water your crops, upgrade the soil and feed them fertilizer from your compost bin. Weeds and pests just slow a crop down until you clear them
     * **Big harvests:** 3-6x a normal Herbalism harvest, plus lots of Farming XP
     * **Farm Fresh +1 / +2:** well-grown produce makes stronger food when cooked and longer-lasting potions when brewed
-    * New **Watering Can** tool in a Farming tab at the Toolsmith, a Farmer job, a Farming talent, daily Farmer's Orders and achievements. Use **/farm** to see your crops
+    * Fertilised soil now shows which fertilizer it has
+    * **Plant food:** make Leaf Feed, Bloom Feed or Void Feed from compost and Fishing's Fish Oil, then mix it into your farm's rain barrel and its water changes colour. Water your crops from it to make them grow faster and harvest more
+    * **Buy extra plots** with Void Coins in /farm, up to 64 planters. Each plot costs a bit more than the last
+    * New **Watering Can** tool in a Farming tab at the Toolsmith. It works from your inventory: carry it and it waters your seeds as you plant, boosts every harvest and levels up as you farm
+    * A Farmer job, a Farming talent, daily Farmer's Orders and achievements. Use **/farm** to see your crops
 * **New: void rifts and loot boxes fall in like meteors**
     * When one spawns into new land it streaks down out of the sky, trailing fire and smoke (purple void fire for rifts), and crashes into the ground before it appears
 * **New class: Priest**
@@ -15,9 +42,13 @@
     * **Smite (left-click):** holy light strikes the closest enemy in front of you, up to **8 blocks** away, dealing your staff's Magic Damage boosted by your Magic Power. 1 second cooldown, and no swing timer: every click goes through straight away
     * Smite goes for hostile mobs, bosses, bandits and players you can fight first, and only hits animals when nothing hostile is in front of you. It never hits villagers, pets, friendly outpost guards or players you can't fight
     * **Renew (right-click):** channel a heal on yourself and every ally within **5 blocks**, shown by a gold ring that moves with you. Over 10 seconds each of them heals **2x your Smite damage**. You're slowed while channelling, and swapping off the staff or casting Smite ends it early. 10 second cooldown
-    * **Holy Staves for every tier (1-6)**: in the Armory's staves page, the Starter Gear shop, and as the Priest's starter weapon
+    * **Holy Staves for every tier (1-6)**: in the Armory's staves page, the Starter Gear shop, and as the Priest's starter weapon. You can also **craft them at the Inscription desk** (Staves tab), with gold and Radiant Essence in place of the mage staff's essence
     * **Elite and boss Holy Staves**: world bosses can drop them as trophies (like "Tyrant's Gilded Crozier") and as elite gear, and some elite Mage monsters now carry one
-    * Look out for Bandit Priests, who smite from range and heal themselves. The Class Hall has a Priest champion. Priest talents aren't available yet
+    * **Priest talents:** three branches. Radiance makes Smite burn, chain and build up to a huge Judgment pillar; Benediction makes Renew wider and stronger, ending in Divine Hymn; Sanctity adds shields, damage reduction, Atonement heals and the Sanctuary holy circle
+    * Look out for Bandit Priests, who smite from range and heal themselves. The Class Hall has a Priest champion
+* **New: Holy Idols and Healing Power**
+    * Holy Idols are a new off-hand idol for Tiers 1-6, with regular, elite, boss and Voidforged designs. They're the only gear with **Healing Power**, which makes every Priest heal and shield stronger (+10% at Tier 1 up to about +37% at Tier 6, more on elite and boss idols)
+    * They drop like other idols: from monsters carrying one, bosses, the Abyssal Crucible and more
 * **Change: Elemental Affinity now strikes with an element**
     * When it procs, your hit becomes a fire, frost, lightning, venom or shadow strike for **+15% damage**, with its own effects and a message in combat chat
     * Fire sets the target alight, frost slows it, venom poisons it, shadow withers it, and lightning is pure damage
@@ -29,6 +60,13 @@
     * Hostile Tier 5-6 animals hit harder: about **27** at Tier 5 (was 16) and **32** at Tier 6 (was 18)
 * **Change: dungeon monster gear is much rarer**
     * Dungeon monsters now drop **one** piece of their gear on **10%** of kills in Tier 1, **8%** in Tier 2, **2%** in Tier 3, **1%** in Tier 4, **0.4%** in Tier 5 and **0.2%** in Tier 6 (your Luck still raises it). Before, nearly half of all dungeon kills dropped gear at every tier, sometimes several pieces at once
+* **Fix: every Marksman talent works now**
+    * **One Shot** and **Modular Quiver** never triggered with the repeating crossbow. They now trigger on your critical hits. One Shot triples a max-Focus crit (the extra damage is capped against bosses) and spends your Focus
+    * **Bullet Hell:** crouch + right-click with your crossbow to plant yourself and fire **3x as fast** for 5 seconds. Moving off the spot ends it. Before, it didn't change your fire rate at all
+    * **Piercing Bolt:** shots at max Focus now really pierce through 3 extra enemies and go through shields
+    * **Heat Sink, Overclock and Controlled Burst** build up over a stream of shots and reset when you stop shooting, instead of staying on forever after your first few hits
+    * **Portable Arsenal** now boosts every third shot (it was boosting every shot for some builds)
+    * Getting hit now breaks your Focus. **Breath Control** makes a hit cost only 2 Focus
 * **Fixes**
     * Gear dropped by dungeon monsters now shows its real stats. It was always 1.55x stronger than its tooltip said, which is why the first Upgrade Core on it looked like a huge jump. It also gets its own **✺** symbol in its name, and gear you already have updates the next time you equip it or open a chest or menu
     * Mobs can no longer get stuck as unkillable "ghosts" that keep attacking you

@@ -42,6 +42,12 @@
     * **Buy extra plots** with Void Coins in /farm, up to 64 planters. Each plot costs a bit more than the last
     * New **Watering Can** tool in a Farming tab at the Toolsmith. It works from your inventory: carry it and it waters your seeds as you plant, boosts every harvest and levels up as you farm
     * A Farmer job, a Farming talent, daily Farmer's Orders and achievements. Use **/farm** to see your crops
+* **New: Void Tunnels**
+    * A rare new find in Tier 1 and beyond: a small blackstone burrow with a pitch-black membrane across its opening. Walk into it to be pulled into a dark, cramped tunnel
+    * Up to 6 players can go in together: anyone who follows within **45 seconds** joins the run, then the mouth caves in behind you
+    * Fight through the chambers along the way. Each one stays sealed until its monsters are dead, more monsters lurk in the passages between, and they get stronger the deeper you go
+    * Clear the last chamber and walk into the light to come out on an island **one to two tiers further out** (or deeper into Tier 6), hundreds of blocks from where you went in
+    * Dying, logging out or backing out through the entrance ends your trip. If you die, your grave waits by the tunnel's mouth
 * **New: void rifts and loot boxes fall in like meteors**
     * When one spawns into new land it streaks down out of the sky, trailing fire and smoke (purple void fire for rifts), and crashes into the ground before it appears
 * **New class: Priest**

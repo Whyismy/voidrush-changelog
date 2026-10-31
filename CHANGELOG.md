@@ -1,4 +1,61 @@
 # Void Rush Changelog
+## 5.34 10/30/2026
+* **New: seeds fit in Resource Bags**
+    * Void Farm seeds of every size fit in Resource Bags and collect into them automatically, like ores and herbs. Take them out when you want to plant
+* **New: your outpost guards fight monsters**
+    * Guards at an outpost you own now attack hostile mobs that come near it, then head back to the bell once the area is clear. They never touch pets, bosses or other guards
+* **New: your outposts warn you when a player attacks them**
+    * If another player (not your party) attacks your outpost's guards, you get a chat warning with their name and the outpost's location, at most once a minute per outpost
+* **New talent: Keen Eye** (Utility)
+    * Gain **+2% to +12% Truestrike** (ranks 1-5), so your attacks cut through enemy evasion. It stacks with Truestrike from your gear
+* **New: "Any Paper" recipe at the Sawmill**
+    * Set a production line to Any Paper and it saws all your logs into paper of their own tier, whatever mix you put in, so you don't need a line per tier
+* **New daily quest: Kaelith's Comeback**
+    * Remember Kaelith from the tutorial, the guy who showed off his tier 6 gear right before the Siege Beast got him? He's at spawn by the Training Dummy, back in starter gear, and he loses it all again every day. Help him gear back up to your tier: slay mobs for his blade, elites for his armor, and close a rift for his shield. Then stand with him when the Siege Beast comes back for a rematch
+    * Each step ends in a scene that only you see, and you watch his gear come back piece by piece. Rewards are Void XP, coins and a spare piece of gear at your tier. It has its own slot, so it doesn't use one of your quest slots, and it resets every day at midnight
+* **New: tier 4, 5 and 6 food crops**
+    * The far zones now grow their own food: **Pumpkins and Melons** in tier 4, **Golden Carrots and Golden Potatoes** in tier 5, and **Golden Apple Bushes** and glowing **Glow Berry vines** in tier 6. They need Herbalism 30, 45 and 60
+    * Cook them at a campfire into Pumpkin Pie, Roasted Golden Carrot, Roasted Golden Potato or Candied Golden Apple. Each new crop also drops seeds for your Void Farm
+    * Sweet Berry Bushes now grow in tier 1 and 2 zones
+* **New: pumpkins, melons and cactus start harvesting on the first click**
+    * You no longer have to dig them out before the harvest bar starts, and holding the click doesn't restart it
+* **Fixes**
+    * Your Void Farm grows in place when you level up or buy a plot, instead of needing a new farm spot
+    * Grass and flowers no longer poke through your farm's planters
+    * Planter labels and the farm sign stay above sugar cane and cactus
+    * Clicking a planter from the side now picks the one you're aiming at
+    * Watering cans are held upright with the spout facing ahead (they were backwards and upside down)
+    * You can fight mobs standing on your farm again: your swings no longer hit the farm instead
+* **Fix: outpost guards and raiders now actually hurt each other during a defense**
+* **Fix: the starter quest no longer gets stuck for experienced players**
+    * "Close the Void Rift" only shows on the Quest Board for new players now. If you already took it, the Quest Cannon now appears for you and fires you to your own rift, so you can finish it
+* **Fix: idols no longer show as Perfect without every stat**
+    * Idols can now very rarely roll extra stats on top of their usual ones, and a Perfect idol has every idol stat. Idols that were wrongly marked Perfect lose the mark
+* **Fix: tier 6 zones grew tier 1 crops**
+    * They spawned wheat and beetroot. They now grow tier 6 crops
+* **Fix: tier 6 food sold for 1 coin**
+    * It now sells for 100 coins and shows its real saturation
+* **Fix: cooked food could be cooked again**
+* **Fix: right-clicking berry crops picked plain berries and left the bush bare**
+    * Left-click berries to harvest them
+* **Fix: raw Sweet Berries, Melon Slices and Glow Berries now say they can be cooked at a campfire**
+* **Change: your first 2 hires on the starter quest are free**
+    * The Quest Clerk now pays for any adventurer you hire for your first party, not just the ones who arrive beside you
+* **Change: your first food buy on the Restock Your Food quest is free**
+    * The Food Merchant gives you your first bundle of food on the house
+* **Change: armor can now roll Magic Power**
+    * Armor's bonus Damage stat is now either **+Damage** or **+Magic Power**, never both, so casters can find armor made for them too
+* **Change: axes no longer strip logs**
+    * Right-clicking a log with an axe no longer strips its bark
+    * Stripped logs you find in the world can now be chopped like the normal log of the same wood: same tier, level requirement, XP and drops
+* **Change: Last Stand now has a 30 minute cooldown**
+    * Last Stand used to recharge every time you died. Now it can save you once every 30 minutes, and dying or relogging doesn't reset it
+* **Change: some Advanced Cooking recipes use the new crops**
+    * **Inferno Steak:** 3 Beef, 2 Melon Slices and 1 Carrot
+    * **Pumpkin Spice Pie:** Sugar instead of Cocoa Beans
+    * **Voidfeast Platter:** 2 Golden Carrots, 2 Golden Potatoes and 2 Mutton
+* **Change: crops in farther zones need a higher Herbalism level**
+    * A crop needs the Herbalism level of its zone's tier, the same as the better food it gives. For example, carrots in a tier 5 zone need level 45 and come up golden
 ## 5.33 10/30/2026
 * **New profession: Farming**
     * **Void Farm spots** spawn into new void land as it generates, just like void rifts. Everyone near a spot farms there together, but each player sees only their own farm. Walk away and your farm fades back into the void, then drops in again at the next spot you find, every crop just as you left it

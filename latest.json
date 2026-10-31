@@ -1,252 +1,126 @@
 {
-  "version": "5.34",
-  "date": "2026-10-30",
-  "markdown": "* **New: seeds fit in Resource Bags**\n    * Void Farm seeds of every size fit in Resource Bags and collect into them automatically, like ores and herbs. Take them out when you want to plant\n* **New: your outpost guards fight monsters**\n    * Guards at an outpost you own now attack hostile mobs that come near it, then head back to the bell once the area is clear. They never touch pets, bosses or other guards\n* **New: your outposts warn you when a player attacks them**\n    * If another player (not your party) attacks your outpost's guards, you get a chat warning with their name and the outpost's location, at most once a minute per outpost\n* **New talent: Keen Eye** (Utility)\n    * Gain **+2% to +12% Truestrike** (ranks 1-5), so your attacks cut through enemy evasion. It stacks with Truestrike from your gear\n* **New: \"Any Paper\" recipe at the Sawmill**\n    * Set a production line to Any Paper and it saws all your logs into paper of their own tier, whatever mix you put in, so you don't need a line per tier\n* **New daily quest: Kaelith's Comeback**\n    * Remember Kaelith from the tutorial, the guy who showed off his tier 6 gear right before the Siege Beast got him? He's at spawn by the Training Dummy, back in starter gear, and he loses it all again every day. Help him gear back up to your tier: slay mobs for his blade, elites for his armor, and close a rift for his shield. Then stand with him when the Siege Beast comes back for a rematch\n    * Each step ends in a scene that only you see, and you watch his gear come back piece by piece. Rewards are Void XP, coins and a spare piece of gear at your tier. It has its own slot, so it doesn't use one of your quest slots, and it resets every day at midnight\n* **New: tier 4, 5 and 6 food crops**\n    * The far zones now grow their own food: **Pumpkins and Melons** in tier 4, **Golden Carrots and Golden Potatoes** in tier 5, and **Golden Apple Bushes** and glowing **Glow Berry vines** in tier 6. They need Herbalism 30, 45 and 60\n    * Cook them at a campfire into Pumpkin Pie, Roasted Golden Carrot, Roasted Golden Potato or Candied Golden Apple. Each new crop also drops seeds for your Void Farm\n    * Sweet Berry Bushes now grow in tier 1 and 2 zones\n* **New: pumpkins, melons and cactus start harvesting on the first click**\n    * You no longer have to dig them out before the harvest bar starts, and holding the click doesn't restart it\n* **Fixes**\n    * Your Void Farm grows in place when you level up or buy a plot, instead of needing a new farm spot\n    * Grass and flowers no longer poke through your farm's planters\n    * Planter labels and the farm sign stay above sugar cane and cactus\n    * Clicking a planter from the side now picks the one you're aiming at\n    * Watering cans are held upright with the spout facing ahead (they were backwards and upside down)\n    * You can fight mobs standing on your farm again: your swings no longer hit the farm instead\n* **Fix: outpost guards and raiders now actually hurt each other during a defense**\n* **Fix: the starter quest no longer gets stuck for experienced players**\n    * \"Close the Void Rift\" only shows on the Quest Board for new players now. If you already took it, the Quest Cannon now appears for you and fires you to your own rift, so you can finish it\n* **Fix: idols no longer show as Perfect without every stat**\n    * Idols can now very rarely roll extra stats on top of their usual ones, and a Perfect idol has every idol stat. Idols that were wrongly marked Perfect lose the mark\n* **Fix: tier 6 zones grew tier 1 crops**\n    * They spawned wheat and beetroot. They now grow tier 6 crops\n* **Fix: tier 6 food sold for 1 coin**\n    * It now sells for 100 coins and shows its real saturation\n* **Fix: cooked food could be cooked again**\n* **Fix: right-clicking berry crops picked plain berries and left the bush bare**\n    * Left-click berries to harvest them\n* **Fix: raw Sweet Berries, Melon Slices and Glow Berries now say they can be cooked at a campfire**\n* **Change: your first 2 hires on the starter quest are free**\n    * The Quest Clerk now pays for any adventurer you hire for your first party, not just the ones who arrive beside you\n* **Change: your first food buy on the Restock Your Food quest is free**\n    * The Food Merchant gives you your first bundle of food on the house\n* **Change: armor can now roll Magic Power**\n    * Armor's bonus Damage stat is now either **+Damage** or **+Magic Power**, never both, so casters can find armor made for them too\n* **Change: axes no longer strip logs**\n    * Right-clicking a log with an axe no longer strips its bark\n    * Stripped logs you find in the world can now be chopped like the normal log of the same wood: same tier, level requirement, XP and drops\n* **Change: Last Stand now has a 30 minute cooldown**\n    * Last Stand used to recharge every time you died. Now it can save you once every 30 minutes, and dying or relogging doesn't reset it\n* **Change: some Advanced Cooking recipes use the new crops**\n    * **Inferno Steak:** 3 Beef, 2 Melon Slices and 1 Carrot\n    * **Pumpkin Spice Pie:** Sugar instead of Cocoa Beans\n    * **Voidfeast Platter:** 2 Golden Carrots, 2 Golden Potatoes and 2 Mutton\n* **Change: crops in farther zones need a higher Herbalism level**\n    * A crop needs the Herbalism level of its zone's tier, the same as the better food it gives. For example, carrots in a tier 5 zone need level 45 and come up golden",
+  "version": "5.34b",
+  "date": "2026-10-31",
+  "markdown": "* **New: Graphics settings, for low FPS**\n    * Open them with `/graphics` or in Extras > Settings > Graphics, or use `/graphics low` to turn everything down at once (`/graphics full` undoes it). They only change what you see\n    * **Particles:** Full, Reduced or Low cuts every particle you see, and makes the big ones follow your own Particles setting in Video Settings\n    * **NPC Bots:** draw bots only when they're within 32 or 16 blocks of you\n    * **Moving Decorations:** hide the floating islands' crystals, rings and orbiting rocks, and the crafting stations' animations\n    * **Other Players' Wings:** hide everyone else's wings\n* **Fix: the server no longer crashes when players walk away from Kaelith at spawn**\n* **Fix: Bedrock players on phones can now plant, water and harvest on their Void Farm**\n    * Tapping a planter now does the same as using it, unless it has weeds or pests to clear first. If you're standing right at a planter, the tap goes to that one\n* **Fix: the void no longer crumbles away under you if the server restarted during your Rift Cannon flight**\n    * Land would stop appearing around you and crumble under your feet. Logging in again fixes it\n* **Fix: the repeating crossbow now hits at its full Shots/sec**\n    * Above 2 shots a second, extra bolts bounced off the target you were shooting. Now every bolt lands\n* **Fix: monsters in tier 6 zones no longer go missing**\n    * When a rare monster rolled in a tier 6 area, it could spawn without its name or health bar and stop the rest of that area's monsters from spawning\n* **Fix: fast melee attacks no longer get thrown away**\n    * Above 2 attacks a second, extra hits on the same target were ignored. That held daggers back and made Attack Speed past a small amount do nothing. Now every fully charged swing lands, so Attack Speed, Haste and Adrenaline Rush count at any speed. Spam clicking still does nothing\n* **Fix: falling blocks no longer freeze in mid-air on Bedrock**\n    * Blocks falling into place, collapsing walls and breaking debris now actually fall for Bedrock players, like they do on Java\n* **Change: Kaelith's Comeback is now a weekly quest**\n    * Kaelith now loses his gear once a week instead of every day. Once you've helped him, the quest comes back on Monday at midnight, along with the Quest Board's weekly quests. A run you've already started carries on as normal\n* **Change: Void Farms are lighter on your FPS**\n    * Your farm now only sends your game the parts you can actually see, so big farms cost far less to draw. The only difference you'll notice: empty planters no longer have an \"Empty\" label\n* **Change: a lighter resource pack**\n    * Shields are far cheaper to draw (up to 70% fewer parts) and look exactly the same, and the pack is about a quarter smaller to download (half on Bedrock)\n* **Change: Rapid Fire speeds up your repeating crossbow instead of adding damage**\n    * Each hit in a row on the same target gives **+5% fire rate**, up to **+100%** at 20 hits, instead of +5% damage. Hitting a different target starts over",
   "sections": [
     {
       "title": null,
       "entries": [
         {
-          "text": "**New: seeds fit in Resource Bags**",
+          "text": "**New: Graphics settings, for low FPS**",
           "children": [
             {
-              "text": "Void Farm seeds of every size fit in Resource Bags and collect into them automatically, like ores and herbs. Take them out when you want to plant",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New: your outpost guards fight monsters**",
-          "children": [
-            {
-              "text": "Guards at an outpost you own now attack hostile mobs that come near it, then head back to the bell once the area is clear. They never touch pets, bosses or other guards",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New: your outposts warn you when a player attacks them**",
-          "children": [
-            {
-              "text": "If another player (not your party) attacks your outpost's guards, you get a chat warning with their name and the outpost's location, at most once a minute per outpost",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New talent: Keen Eye** (Utility)",
-          "children": [
-            {
-              "text": "Gain **+2% to +12% Truestrike** (ranks 1-5), so your attacks cut through enemy evasion. It stacks with Truestrike from your gear",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New: \"Any Paper\" recipe at the Sawmill**",
-          "children": [
-            {
-              "text": "Set a production line to Any Paper and it saws all your logs into paper of their own tier, whatever mix you put in, so you don't need a line per tier",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New daily quest: Kaelith's Comeback**",
-          "children": [
-            {
-              "text": "Remember Kaelith from the tutorial, the guy who showed off his tier 6 gear right before the Siege Beast got him? He's at spawn by the Training Dummy, back in starter gear, and he loses it all again every day. Help him gear back up to your tier: slay mobs for his blade, elites for his armor, and close a rift for his shield. Then stand with him when the Siege Beast comes back for a rematch",
+              "text": "Open them with `/graphics` or in Extras > Settings > Graphics, or use `/graphics low` to turn everything down at once (`/graphics full` undoes it). They only change what you see",
               "children": []
             },
             {
-              "text": "Each step ends in a scene that only you see, and you watch his gear come back piece by piece. Rewards are Void XP, coins and a spare piece of gear at your tier. It has its own slot, so it doesn't use one of your quest slots, and it resets every day at midnight",
+              "text": "**Particles:** Full, Reduced or Low cuts every particle you see, and makes the big ones follow your own Particles setting in Video Settings",
+              "children": []
+            },
+            {
+              "text": "**NPC Bots:** draw bots only when they're within 32 or 16 blocks of you",
+              "children": []
+            },
+            {
+              "text": "**Moving Decorations:** hide the floating islands' crystals, rings and orbiting rocks, and the crafting stations' animations",
+              "children": []
+            },
+            {
+              "text": "**Other Players' Wings:** hide everyone else's wings",
               "children": []
             }
           ]
         },
         {
-          "text": "**New: tier 4, 5 and 6 food crops**",
-          "children": [
-            {
-              "text": "The far zones now grow their own food: **Pumpkins and Melons** in tier 4, **Golden Carrots and Golden Potatoes** in tier 5, and **Golden Apple Bushes** and glowing **Glow Berry vines** in tier 6. They need Herbalism 30, 45 and 60",
-              "children": []
-            },
-            {
-              "text": "Cook them at a campfire into Pumpkin Pie, Roasted Golden Carrot, Roasted Golden Potato or Candied Golden Apple. Each new crop also drops seeds for your Void Farm",
-              "children": []
-            },
-            {
-              "text": "Sweet Berry Bushes now grow in tier 1 and 2 zones",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New: pumpkins, melons and cactus start harvesting on the first click**",
-          "children": [
-            {
-              "text": "You no longer have to dig them out before the harvest bar starts, and holding the click doesn't restart it",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fixes**",
-          "children": [
-            {
-              "text": "Your Void Farm grows in place when you level up or buy a plot, instead of needing a new farm spot",
-              "children": []
-            },
-            {
-              "text": "Grass and flowers no longer poke through your farm's planters",
-              "children": []
-            },
-            {
-              "text": "Planter labels and the farm sign stay above sugar cane and cactus",
-              "children": []
-            },
-            {
-              "text": "Clicking a planter from the side now picks the one you're aiming at",
-              "children": []
-            },
-            {
-              "text": "Watering cans are held upright with the spout facing ahead (they were backwards and upside down)",
-              "children": []
-            },
-            {
-              "text": "You can fight mobs standing on your farm again: your swings no longer hit the farm instead",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fix: outpost guards and raiders now actually hurt each other during a defense**",
+          "text": "**Fix: the server no longer crashes when players walk away from Kaelith at spawn**",
           "children": []
         },
         {
-          "text": "**Fix: the starter quest no longer gets stuck for experienced players**",
+          "text": "**Fix: Bedrock players on phones can now plant, water and harvest on their Void Farm**",
           "children": [
             {
-              "text": "\"Close the Void Rift\" only shows on the Quest Board for new players now. If you already took it, the Quest Cannon now appears for you and fires you to your own rift, so you can finish it",
+              "text": "Tapping a planter now does the same as using it, unless it has weeds or pests to clear first. If you're standing right at a planter, the tap goes to that one",
               "children": []
             }
           ]
         },
         {
-          "text": "**Fix: idols no longer show as Perfect without every stat**",
+          "text": "**Fix: the void no longer crumbles away under you if the server restarted during your Rift Cannon flight**",
           "children": [
             {
-              "text": "Idols can now very rarely roll extra stats on top of their usual ones, and a Perfect idol has every idol stat. Idols that were wrongly marked Perfect lose the mark",
+              "text": "Land would stop appearing around you and crumble under your feet. Logging in again fixes it",
               "children": []
             }
           ]
         },
         {
-          "text": "**Fix: tier 6 zones grew tier 1 crops**",
+          "text": "**Fix: the repeating crossbow now hits at its full Shots/sec**",
           "children": [
             {
-              "text": "They spawned wheat and beetroot. They now grow tier 6 crops",
+              "text": "Above 2 shots a second, extra bolts bounced off the target you were shooting. Now every bolt lands",
               "children": []
             }
           ]
         },
         {
-          "text": "**Fix: tier 6 food sold for 1 coin**",
+          "text": "**Fix: monsters in tier 6 zones no longer go missing**",
           "children": [
             {
-              "text": "It now sells for 100 coins and shows its real saturation",
+              "text": "When a rare monster rolled in a tier 6 area, it could spawn without its name or health bar and stop the rest of that area's monsters from spawning",
               "children": []
             }
           ]
         },
         {
-          "text": "**Fix: cooked food could be cooked again**",
-          "children": []
-        },
-        {
-          "text": "**Fix: right-clicking berry crops picked plain berries and left the bush bare**",
+          "text": "**Fix: fast melee attacks no longer get thrown away**",
           "children": [
             {
-              "text": "Left-click berries to harvest them",
+              "text": "Above 2 attacks a second, extra hits on the same target were ignored. That held daggers back and made Attack Speed past a small amount do nothing. Now every fully charged swing lands, so Attack Speed, Haste and Adrenaline Rush count at any speed. Spam clicking still does nothing",
               "children": []
             }
           ]
         },
         {
-          "text": "**Fix: raw Sweet Berries, Melon Slices and Glow Berries now say they can be cooked at a campfire**",
-          "children": []
-        },
-        {
-          "text": "**Change: your first 2 hires on the starter quest are free**",
+          "text": "**Fix: falling blocks no longer freeze in mid-air on Bedrock**",
           "children": [
             {
-              "text": "The Quest Clerk now pays for any adventurer you hire for your first party, not just the ones who arrive beside you",
+              "text": "Blocks falling into place, collapsing walls and breaking debris now actually fall for Bedrock players, like they do on Java",
               "children": []
             }
           ]
         },
         {
-          "text": "**Change: your first food buy on the Restock Your Food quest is free**",
+          "text": "**Change: Kaelith's Comeback is now a weekly quest**",
           "children": [
             {
-              "text": "The Food Merchant gives you your first bundle of food on the house",
+              "text": "Kaelith now loses his gear once a week instead of every day. Once you've helped him, the quest comes back on Monday at midnight, along with the Quest Board's weekly quests. A run you've already started carries on as normal",
               "children": []
             }
           ]
         },
         {
-          "text": "**Change: armor can now roll Magic Power**",
+          "text": "**Change: Void Farms are lighter on your FPS**",
           "children": [
             {
-              "text": "Armor's bonus Damage stat is now either **+Damage** or **+Magic Power**, never both, so casters can find armor made for them too",
+              "text": "Your farm now only sends your game the parts you can actually see, so big farms cost far less to draw. The only difference you'll notice: empty planters no longer have an \"Empty\" label",
               "children": []
             }
           ]
         },
         {
-          "text": "**Change: axes no longer strip logs**",
+          "text": "**Change: a lighter resource pack**",
           "children": [
             {
-              "text": "Right-clicking a log with an axe no longer strips its bark",
-              "children": []
-            },
-            {
-              "text": "Stripped logs you find in the world can now be chopped like the normal log of the same wood: same tier, level requirement, XP and drops",
+              "text": "Shields are far cheaper to draw (up to 70% fewer parts) and look exactly the same, and the pack is about a quarter smaller to download (half on Bedrock)",
               "children": []
             }
           ]
         },
         {
-          "text": "**Change: Last Stand now has a 30 minute cooldown**",
+          "text": "**Change: Rapid Fire speeds up your repeating crossbow instead of adding damage**",
           "children": [
             {
-              "text": "Last Stand used to recharge every time you died. Now it can save you once every 30 minutes, and dying or relogging doesn't reset it",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Change: some Advanced Cooking recipes use the new crops**",
-          "children": [
-            {
-              "text": "**Inferno Steak:** 3 Beef, 2 Melon Slices and 1 Carrot",
-              "children": []
-            },
-            {
-              "text": "**Pumpkin Spice Pie:** Sugar instead of Cocoa Beans",
-              "children": []
-            },
-            {
-              "text": "**Voidfeast Platter:** 2 Golden Carrots, 2 Golden Potatoes and 2 Mutton",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Change: crops in farther zones need a higher Herbalism level**",
-          "children": [
-            {
-              "text": "A crop needs the Herbalism level of its zone's tier, the same as the better food it gives. For example, carrots in a tier 5 zone need level 45 and come up golden",
+              "text": "Each hit in a row on the same target gives **+5% fire rate**, up to **+100%** at 20 hits, instead of +5% damage. Hitting a different target starts over",
               "children": []
             }
           ]

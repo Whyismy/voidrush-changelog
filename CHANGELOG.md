@@ -1,4 +1,32 @@
 # Void Rush Changelog
+## 5.34b 10/31/2026
+* **New: Graphics settings, for low FPS**
+    * Open them with `/graphics` or in Extras > Settings > Graphics, or use `/graphics low` to turn everything down at once (`/graphics full` undoes it). They only change what you see
+    * **Particles:** Full, Reduced or Low cuts every particle you see, and makes the big ones follow your own Particles setting in Video Settings
+    * **NPC Bots:** draw bots only when they're within 32 or 16 blocks of you
+    * **Moving Decorations:** hide the floating islands' crystals, rings and orbiting rocks, and the crafting stations' animations
+    * **Other Players' Wings:** hide everyone else's wings
+* **Fix: the server no longer crashes when players walk away from Kaelith at spawn**
+* **Fix: Bedrock players on phones can now plant, water and harvest on their Void Farm**
+    * Tapping a planter now does the same as using it, unless it has weeds or pests to clear first. If you're standing right at a planter, the tap goes to that one
+* **Fix: the void no longer crumbles away under you if the server restarted during your Rift Cannon flight**
+    * Land would stop appearing around you and crumble under your feet. Logging in again fixes it
+* **Fix: the repeating crossbow now hits at its full Shots/sec**
+    * Above 2 shots a second, extra bolts bounced off the target you were shooting. Now every bolt lands
+* **Fix: monsters in tier 6 zones no longer go missing**
+    * When a rare monster rolled in a tier 6 area, it could spawn without its name or health bar and stop the rest of that area's monsters from spawning
+* **Fix: fast melee attacks no longer get thrown away**
+    * Above 2 attacks a second, extra hits on the same target were ignored. That held daggers back and made Attack Speed past a small amount do nothing. Now every fully charged swing lands, so Attack Speed, Haste and Adrenaline Rush count at any speed. Spam clicking still does nothing
+* **Fix: falling blocks no longer freeze in mid-air on Bedrock**
+    * Blocks falling into place, collapsing walls and breaking debris now actually fall for Bedrock players, like they do on Java
+* **Change: Kaelith's Comeback is now a weekly quest**
+    * Kaelith now loses his gear once a week instead of every day. Once you've helped him, the quest comes back on Monday at midnight, along with the Quest Board's weekly quests. A run you've already started carries on as normal
+* **Change: Void Farms are lighter on your FPS**
+    * Your farm now only sends your game the parts you can actually see, so big farms cost far less to draw. The only difference you'll notice: empty planters no longer have an "Empty" label
+* **Change: a lighter resource pack**
+    * Shields are far cheaper to draw (up to 70% fewer parts) and look exactly the same, and the pack is about a quarter smaller to download (half on Bedrock)
+* **Change: Rapid Fire speeds up your repeating crossbow instead of adding damage**
+    * Each hit in a row on the same target gives **+5% fire rate**, up to **+100%** at 20 hits, instead of +5% damage. Hitting a different target starts over
 ## 5.34 10/30/2026
 * **New: seeds fit in Resource Bags**
     * Void Farm seeds of every size fit in Resource Bags and collect into them automatically, like ores and herbs. Take them out when you want to plant

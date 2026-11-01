@@ -6,6 +6,24 @@
     * **NPC Bots:** draw bots only when they're within 32 or 16 blocks of you
     * **Moving Decorations:** hide the floating islands' crystals, rings and orbiting rocks, and the crafting stations' animations
     * **Other Players' Wings:** hide everyone else's wings
+* **New: Reap, a second rare stat for herbalism tools**
+    * When your herbalism tool rolls a rare stat on a level-up, it can now get Reap instead of Regrowth
+    * Reap gives a chance (up to 15%) that a harvest also harvests every plant in the 3x3 around it, with full drops and XP for each
+* **New: eggs, and Fried Eggs to cook from them**
+    * Chickens now lay tiered eggs, and butchery chickens sometimes drop one when killed
+    * Right-click an egg on a campfire to cook it into a Fried Egg. Higher tier eggs make better Fried Eggs, just like meat
+    * These eggs are for cooking, so they can't be thrown
+* **New: Magic Infusion, a second rare stat for mining tools**
+    * When your pickaxe rolls a rare stat on a level-up, it can now get Magic Infusion instead of Vein Mining
+    * Magic Infusion gives a chance (up to 30%) that the node you just mined stays up for 2 to 5 more mines, with full drops and XP each time
+* **New: WindGust, a second rare stat for woodcutting tools**
+    * When your axe rolls a rare stat on a level-up, it can now get WindGust instead of Treefeller
+    * WindGust gives a chance (up to 15%) that chopping a log blows every leaf off the tree, with all the sticks and saplings blown straight to you. It doesn't wear your axe
+* **New: Astute, a second rare stat for fishing rods**
+    * When your rod rolls a rare stat on a level-up, it can now get Astute instead of Treasure Find
+    * Astute gives a chance (up to 30%) that a catch also reels up Minecraft XP, more in higher tier waters
+* **New: Briar Spinel, a Thorns gem**
+    * A thorn-wrapped green gem that adds **+2% to +9% Thorns** (tier 1 to 6). It drops and upgrades like any other gem
 * **Fix: the server no longer crashes when players walk away from Kaelith at spawn**
 * **Fix: Bedrock players on phones can now plant, water and harvest on their Void Farm**
     * Tapping a planter now does the same as using it, unless it has weeds or pests to clear first. If you're standing right at a planter, the tap goes to that one
@@ -19,6 +37,10 @@
     * Above 2 attacks a second, extra hits on the same target were ignored. That held daggers back and made Attack Speed past a small amount do nothing. Now every fully charged swing lands, so Attack Speed, Haste and Adrenaline Rush count at any speed. Spam clicking still does nothing
 * **Fix: falling blocks no longer freeze in mid-air on Bedrock**
     * Blocks falling into place, collapsing walls and breaking debris now actually fall for Bedrock players, like they do on Java
+* **Fix: Vein Mining, Treefeller and Regrowth now work at any amount, and do exactly what their percent says**
+    * Below 7.5% they did nothing at all, and above that they used a rounded amount instead of the number on your tool. Now a tool with 4% Treefeller procs 4% of the time, and 12% Regrowth makes plants regrow 12% faster
+* **Fix: spam clicking the repeating crossbow no longer fires faster than holding right click**
+    * Clicking at the right pace used to fire faster than the crossbow's Shots/sec on slower crossbows
 * **Change: Kaelith's Comeback is now a weekly quest**
     * Kaelith now loses his gear once a week instead of every day. Once you've helped him, the quest comes back on Monday at midnight, along with the Quest Board's weekly quests. A run you've already started carries on as normal
 * **Change: Void Farms are lighter on your FPS**
@@ -27,6 +49,23 @@
     * Shields are far cheaper to draw (up to 70% fewer parts) and look exactly the same, and the pack is about a quarter smaller to download (half on Bedrock)
 * **Change: Rapid Fire speeds up your repeating crossbow instead of adding damage**
     * Each hit in a row on the same target gives **+5% fire rate**, up to **+100%** at 20 hits, instead of +5% damage. Hitting a different target starts over
+* **Change: Kaelith's rematch is against Siege Beast Jr.**
+    * At the end of Kaelith's Comeback, the beast that charges him is now a baby Siege Beast: half his height, big-headed, no armour yet, and just as angry. It still sends him flying
+* **Change: Void Farms no longer fill your chat**
+    * Your farm landing, leaving or drifting away no longer sends messages. Walk within 5 blocks of your farm and you'll get a reminder that you can manage it (right-click it or use `/farm`). New farmers get their starter kit the first time they walk up to their farm
+* **Change: walking while firing a repeating crossbow throws off your aim**
+    * The faster you move, the further your bolts stray, up to **20 degrees** off your crosshair at a normal walk. Sneaking strays about a third as much, and standing still is dead accurate. Getting knocked back doesn't count, and your fire rate is unchanged
+* **Change: Production leaves the sidebar when it's idle**
+    * If none of your production lines have been working for 5 minutes, the Production section hides from your sidebar. It comes back as soon as a line starts running again
+* **Change: Thorns now reflects its full percent on every hit**
+    * Thorns used to be a chance to reflect half the hit. Now **every** hit a monster lands on you sends your Thorns % of its damage straight back, so 20% Thorns reflects 20% of every hit
+    * Thorns kills now count as your kills, with loot and quest progress
+* **Change: the Thorns Rune now makes your Thorns burst**
+    * Instead of adding Thorns, the Thorns Rune gives **+5% Thorns Burst chance per tier**: when your Thorns reflects damage, it can burst out and hit every enemy within 4 blocks of you for the same amount
+    * Runes you've already applied switch over on their own
+* **Change: crafting tables can no longer be used**
+* **Change: the spear's Lance dash now has a 4 second cooldown, or 2 seconds for Lancers**
+    * Spears could dash every 2 seconds in anyone's hands. Lancers keep that as a class bonus
 ## 5.34 10/30/2026
 * **New: seeds fit in Resource Bags**
     * Void Farm seeds of every size fit in Resource Bags and collect into them automatically, like ores and herbs. Take them out when you want to plant

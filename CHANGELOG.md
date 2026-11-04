@@ -5,7 +5,7 @@
     * A pack roams behind its leader and fights as one: hit one and the rest come running, they all go for the same player, and if one of them can see you, the whole pack knows where you are
     * Melee bandits in a pack surround you, coming in from the front, both sides and behind
 * **New: no more dropping your best gear by accident**
-    * Gear you've upgraded, reforged, put runes on or socketed gems into, and your profession tools, now need a quick double tap of Q to drop. The first press just asks you to press again
+    * Gear you've upgraded, reforged, put runes on or socketed gems into, your profession tools and your bags now need a quick double tap of Q to drop. The first press just asks you to press again
 * **New: profession tools take gems and enchants**
     * Every profession tool, Watering Can included, now has a gem socket. A tool takes gems up to its own tier (a Novice tool takes Tier 1 gems, a Legendary tool any tier), and a Socket Conduit can reroll it to more sockets like any gear
     * Enchants on a tool go up to its tier too: Novice tools get level I, Apprentice up to II, and so on to VI for Legendary

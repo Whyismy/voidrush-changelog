@@ -19,8 +19,9 @@ Raw URLs (no login needed):
 
 ```json
 {
-  "version": "5.33",
-  "date": "2026-10-30",
+  "version": "5.4",
+  "date": "2026-11-04",
+  "title": "Void Terrain Update",
   "markdown": "* **New class: Priest**\n    * ...",
   "sections": [
     {
@@ -33,6 +34,8 @@ Raw URLs (no login needed):
 }
 ```
 
+- `title` is the update's name, or `null` for a version without one. In `CHANGELOG.md` it follows
+  the date on the version's heading: `## 5.4 11/04/2026 - Void Terrain Update`.
 - `markdown` is that version's raw body, so the site can render it with any Markdown library.
 - `sections` is the same content as a tree. `title` is `null` for the main list; a few old
   versions also have named sections (`### Graves`, ...). `text` is inline Markdown (`**bold**`,

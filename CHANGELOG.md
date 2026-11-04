@@ -1,4 +1,65 @@
 # Void Rush Changelog
+## 5.4 11/04/2026 - Void Terrain Update
+* **New: bandits in tiers 5 and 6 hunt in packs**
+    * In tier 5, 2 to 3 bandits drop in together; in tier 6, 3 to 4
+    * A pack roams behind its leader and fights as one: hit one and the rest come running, they all go for the same player, and if one of them can see you, the whole pack knows where you are
+    * Melee bandits in a pack surround you, coming in from the front, both sides and behind
+* **New: no more dropping your best gear by accident**
+    * Gear you've upgraded, reforged, put runes on or socketed gems into, and your profession tools, now need a quick double tap of Q to drop. The first press just asks you to press again
+* **New: profession tools take gems and enchants**
+    * Every profession tool, Watering Can included, now has a gem socket. A tool takes gems up to its own tier (a Novice tool takes Tier 1 gems, a Legendary tool any tier), and a Socket Conduit can reroll it to more sockets like any gear
+    * Enchants on a tool go up to its tier too: Novice tools get level I, Apprentice up to II, and so on to VI for Legendary
+    * Enchants on tools no longer vanish the next time the tool gains XP, and gems and enchants stay on through tier upgrades. Their stats count while you hold the tool
+* **New: rivers and lakes**
+    * Winding rivers now run through the land, crossing chunk after chunk, and lakes dot the land, deepest in the middle. Each is made from the land it lies in: mossy beds in the bushland, sandy ones in the desert, and so on. Water in grassy and mossy lands grows seagrass and lily pads
+    * In tiers 5 and 6, some of the land has rivers and lakes of lava instead. Watch your step
+    * Trees, pillars and rocks in the way stay standing as little islands
+    * Rivers and lakes are always back in the same place when the land rebuilds after crumbling into the void
+    * Rivers flow downhill: as they wind through the rolling hills they step down in small waterfalls
+* **New: monsters no longer crawl through water**
+    * Hostile mobs now move through rivers and lakes almost as fast as on land, so jumping in the water won't shake them off
+* **New: rolling hills**
+    * The land now gently rises and falls, up to 3 blocks up or down, in long slow slopes. Rivers and lakes run through level valleys between them, and the land around spawn stays flat
+    * Buildings, outposts and dungeon entrances sit level on the hills, on a foundation made from the land around them, and never over a river or lake
+    * Outposts sit at the height of the ground around them rather than up on a raised block of land, and owned outposts come back at the same height after a restart
+    * The Halloween island and its Pumpkin Merchant stay where they belong: the hills no longer push the island's blocks up under the merchant
+* **New: Loot All for world boss hoards**
+    * A world boss's hoard now has a Loot All button on its bottom row. One click moves your whole share into your bags and inventory, and anything that doesn't fit stays in the hoard for you
+* **New: mountains**
+    * Very rarely, a mountain rises out of the rolling hills, up to 18 blocks high, with a rocky ridged peak. You might cross a few in a long journey, never near spawn
+    * A river that meets a mountain cuts a gorge right through it
+* **New: ravines**
+    * Rare, deep ravines now split the land, up to 15 blocks down, winding for over a hundred blocks
+    * Their walls are made of the land around them (sandstone in the desert, dirt under grass, and so on) and full of big veins of the area's tier ores: coal near spawn, then copper, iron and lapis, redstone, diamonds and emeralds, and nether quartz with the odd bit of ancient debris in tier 6
+    * Climb out on the ladders along the walls, or take the old mossy staircases up at either end
+* **Fix: off-hand critical hits now deal more damage instead of less**
+    * An off-hand crit dealt only its weapon's Crit Damage percent of the hit, so a weapon with +31.5% Crit Damage critted for under a third of its damage. Off-hand crits now deal 150% plus the weapon's Crit Damage, like your main-hand crits
+    * Gems socketed in your off-hand weapon now add their Crit Chance and Crit Damage to its off-hand strikes
+* **Fix: Thorns no longer sets off your scythe's cleave**
+    * Getting hit while holding a scythe used to spin a free cleave through every enemy around you. Now only your own swings cleave, as before
+* **Fix: Lord of the Dead's Lost Souls now fight for you instead of attacking you**
+    * Every 5 kills, 3 Lost Souls rise from the body and fight beside you for 10 seconds, going for whatever you're hitting. They can't be hurt, and every kill they get counts as yours
+    * It no longer uses up your Souls, so they're all kept for Soul Feast. Your held item shows how many kills until the next Lost Souls
+* **Fix: Soul Collector's ghost now fights for you**
+    * Your ghost hunts whatever you're fighting and its kills count as yours. Before, its hits on monsters did nothing, and it could turn on players
+    * You have one ghost at a time: another proc while it's out keeps it around longer instead. At rank 5 it stays until you die, change worlds or log off
+    * Max HP is still halved while the ghost is out, but it now always comes back to normal when the ghost leaves, even with several procs or if you log off
+* **Fix: your screen no longer shakes when your Energy Shield fills up**
+    * As your shield grew, the health bar made your camera shake and hearts flash as if you'd been hit. Now only real hits do that
+* **Fix: junk items stay junk**
+    * A Totem Splinter no longer saves you from death, and Ender Pearl Dust and the Cracked Return Pearl can't be thrown. Junk is only for selling
+* **Fix: blocks that fall off in your realm come back as building blocks**
+    * Ladders, doors, torches and carpets that drop because the block holding them was broken now come back as building blocks you can place again, like breaking them directly
+* **Fix: shop items no longer sell back for more than they cost**
+    * Grilled Salmon from the Food Merchant sells as normal food, and bots charge a little more for what they sell
+    * Three gems are now always worth more than the gem you'd forge from them. Tier 1 gems sell for more: 6 coins, and 120 for Sage Opal and Clover Jade
+    * Starter Gear can no longer be sold
+* **Fix: a server restart while you're on the death screen no longer wipes your gear**
+    * The items death protection saves for you are now kept safe through a restart, and come back when you respawn
+* **Change: banks reopen on the tab you were last on**
+    * Open your bank or guild bank within 3 minutes of closing it and it opens on the same tab. After that, it starts on Tab 1 again
+* **Change: Pack Rat boosts junk only**
+    * Pack Rat's bonus now applies to junk, as the talent says, not to everything you sell. Junk sold with the "Sell from Inventory & Junk Bags" button now gets the bonus too
 ## 5.34b 10/31/2026
 * **New: Graphics settings, for low FPS**
     * Open them with `/graphics` or in Extras > Settings > Graphics, or use `/graphics low` to turn everything down at once (`/graphics full` undoes it). They only change what you see

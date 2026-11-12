@@ -43,6 +43,9 @@
     * A one-rank talent for 5 talent points. Use **/map** out in the Void to draw a map of the land around you for 100 Void Coins
     * The map shows everything within 256 blocks of you at once, rivers, ravines, mountains and all, even land nobody has walked on yet, with a pointer showing where you are
     * Each map lasts 60 minutes and then fades away. You can hand one to a friend, and you can have up to 3 at a time
+* **New: mix spell scrolls and healing balms**
+    * Spell scrolls and healing balms made at different levels don't stack. Now you can pick one stack up and left-click it onto the other in your inventory to mix them into one
+    * A menu shows you the result first. The mixed stack gets the average level of the two, rounded down: 3 scrolls at level 60 and 5 at level 20 become 8 at level 35. For balms, the Farm Fresh bonus becomes the lower of the two
 * **Fix: dungeon entrances and buildings no longer spawn inside outposts**
     * A dungeon entrance or a building could appear in the middle of an outpost and tear a hole to the void in its floor. Now they always spawn apart
 * **Fix: no more holes to the void in ravines**

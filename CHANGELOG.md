@@ -1,4 +1,69 @@
 # Void Rush Changelog
+## 5.4b 11/07/2026
+* **New: trophy fish**
+    * Every fish you reel in has a tiny chance to be a trophy fish, a little better at a hotspot. Weather and night-time species can be trophies too
+    * Each trophy has its own weight, from Hefty all the way up to Record-breaking, and the bigger it is, the more it's worth
+    * Sell them to the Item Seller for a big payday: around 800 coins for a Tier 1 trophy up to around 20,000 for a Tier 6 one, more for the biggest, and double for weather and time-of-day species
+    * Landing one is a show: the water erupts and your giant, glowing fish leaps out and tumbles through the air towards you, then hangs in front of you spinning in a ring of golden sparkles with its weight above it, before swooping into your arms. Record-breaking fish get fireworks too. Everyone nearby gets to see it
+* **New: spell scrolls get stronger with Inscription level**
+    * Spell scrolls you craft deal 2% more damage per Inscription level you have when you make them, just like potions get better with Alchemy level. A scroll crafted at level 60 hits for 120% more, and the bonus is shown on the scroll
+    * The bonus stays with the scroll, so a high-level scribe's scrolls keep their power when traded. Spell scrolls crafted at different levels don't stack. Scrolls from drops and spell tomes stay at their normal damage
+* **New: NPC camps**
+    * Out in Tiers 3 to 6 you can now stumble across a rare camp: a signal fire with smoke you can spot from a distance, tents, and a few NPCs camping out around it
+    * Every camper wears a random set of gear from that tier and carries random items from that tier. Right-click one to buy what they're carrying, or hire them to fight beside you like any other NPC
+    * Camps don't stay forever: once no players have been nearby for a few minutes, the campers pack up and move on
+    * Gear bought from NPCs now costs about what a vendor charges for that tier
+* **New: cliffs**
+    * Rarely, the land now rises in a sheer cliff, up to 14 blocks high and over a hundred blocks long, curving into a bay or out into a headland
+    * The face shows layers of rock with big veins of the area's tier ores in it. Behind it the high ground slopes gently back down, so you can walk up from either end or from behind and look out over the edge
+    * A river that meets a cliff cuts a gap right through it
+* **New: real mountains**
+    * Rare mountains now tower up to 90 blocks over the land, about 400 blocks across, with ridged peaks and bare rock faces full of big veins of the area's tier ores. You can walk all the way to the top for the view
+    * Rivers run dry before they reach one, so nothing splits them, and the sky castles always float well above them
+    * High up the trees give way to bare rock, and the tallest peaks wear snow caps
+* **New: river bridges**
+    * Every so often a low bridge crosses a river: wooden ones in the early tiers, stone further out and dark blackstone or nether brick over the lava rivers, with lantern posts at each end
+* **New: landmark quests**
+    * A new kind of quest on the Quest Board: travel to a landmark. Climb down into a ravine, reach a mountain's summit, walk up a big hill, find a cliff or a river bridge
+    * You're given a map of the area with a red X on the spot (you need 1 free inventory slot). Your own marker shows on it once you get close
+    * The landmarks move every server restart, so the same quest leads somewhere new each time
+    * Up to 2 are on the board at a time, for different tiers, and you can take them again each time the board refreshes
+* **New: scripted landmark quests**
+    * Three bigger quests where the map leads you to a landmark and something happens when you arrive. Up to 2 are on the board at a time
+    * Ravine Ambush (tiers 3+): meet a wounded courier at the bottom of a ravine, then hold off the bandits who followed him and their chief
+    * Kaelith's Big Catch: Kaelith is fishing his lost gear out of a river. He catches something else
+    * Fallen Star: climb a mountain, watch a star fall out of a darkened sky, and deal with what crawls out of it. The impact blasts a scorched crater into the peak and throws the ground into the air, and the crater stays there until the next restart
+    * Friends on the same quest can join the same event, and each ends with loot boxes on the spot
+* **New: big lakes**
+    * Very rarely the land opens out into a huge lake, around 150 blocks across, with a shelving shore, deep water in the middle and often an island or two. Rivers run into them, and out in the lava lands they're lakes of lava
+* **New: meteors leave craters**
+    * Meteor showers now really hit the ground. The big meteors blast a burned crater with a scorched, smoking floor and a broken rim, and leave a chunky 2x2 node of ore standing in the middle for you to mine. The smaller ones scorch the ground where they land
+    * Meteors pick open, level ground to land on and steer clear of doors, paths, ladders, buildings and water, so a crater never blocks a way in
+* **New talent: Cartographer** (Utility)
+    * A one-rank talent for 5 talent points. Use **/map** out in the Void to draw a map of the land around you for 100 Void Coins
+    * The map shows everything within 256 blocks of you at once, rivers, ravines, mountains and all, even land nobody has walked on yet, with a pointer showing where you are
+    * Each map lasts 60 minutes and then fades away. You can hand one to a friend, and you can have up to 3 at a time
+* **Fix: dungeon entrances and buildings no longer spawn inside outposts**
+    * A dungeon entrance or a building could appear in the middle of an outpost and tear a hole to the void in its floor. Now they always spawn apart
+* **Fix: no more holes to the void in ravines**
+    * Where a ravine cut through a rare chunk, like a desert pond, you could sometimes see straight down into the void beside it. The ravine now seals the ground it cuts through, and the deep mine and cave chunks don't spawn where a ravine runs
+* **Fix: bandits no longer get stuck in walls**
+    * Bandits and NPCs now keep their whole body clear of walls and slide along them instead of sinking in, so a hit can't knock them inside one any more
+    * Leaps, blinks and shadowsteps no longer carry a bandit through a wall
+* **Fix: Fallen Star monsters no longer get stuck in blocks**
+    * The star now spits its monsters out: each one bursts up out of the core and is flung clear of the crater before it comes for you
+* **Change: killing players in a row costs more reputation each time**
+    * Every Lawful or Neutral player you kill in a row costs 50% more of the usual loss: a Neutral player costs -100, then -150, then -200, and a Lawful player -150, then -225, then -300
+    * Your streak resets after 30 minutes without killing a Lawful or Neutral player, and logging out won't clear it. Killing Chaotic players doesn't count
+* **Change: the void collapses half as often**
+    * The server now restarts once every 24 hours instead of every 12, so the Void Collapse comes round once a day
+* **Change: menus close just before a restart**
+    * 5 seconds before the server restarts, every open menu closes (profession tables, the forge, bags and so on) and anything you had in one goes back to your inventory, so nothing gets lost, ironman or not. Menus stay shut until the restart
+* **Change: ironmen can claim server mail**
+    * Ironman characters can now take items and coins from server mail, like event rewards and gifts from the team. Mail from other players is still off limits
+    * Your mailbox now marks each letter as server mail or player mail
+* **Change: the old mountains are now hills**
+    * The rocky hills of up to 18 blocks that came with the Void Terrain Update are still around, now as big hills next to the real mountains
 ## 5.4 11/04/2026 - Void Terrain Update
 * **New: bandits in tiers 5 and 6 hunt in packs**
     * In tier 5, 2 to 3 bandits drop in together; in tier 6, 3 to 4

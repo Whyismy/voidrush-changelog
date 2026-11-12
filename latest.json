@@ -1,268 +1,284 @@
 {
-  "version": "5.4",
-  "date": "2026-11-04",
-  "title": "Void Terrain Update",
-  "markdown": "* **New: bandits in tiers 5 and 6 hunt in packs**\n    * In tier 5, 2 to 3 bandits drop in together; in tier 6, 3 to 4\n    * A pack roams behind its leader and fights as one: hit one and the rest come running, they all go for the same player, and if one of them can see you, the whole pack knows where you are\n    * Melee bandits in a pack surround you, coming in from the front, both sides and behind\n* **New: no more dropping your best gear by accident**\n    * Gear you've upgraded, reforged, put runes on or socketed gems into, your profession tools and your bags now need a quick double tap of Q to drop. The first press just asks you to press again\n* **New: profession tools take gems and enchants**\n    * Every profession tool, Watering Can included, now has a gem socket. A tool takes gems up to its own tier (a Novice tool takes Tier 1 gems, a Legendary tool any tier), and a Socket Conduit can reroll it to more sockets like any gear\n    * Enchants on a tool go up to its tier too: Novice tools get level I, Apprentice up to II, and so on to VI for Legendary\n    * Enchants on tools no longer vanish the next time the tool gains XP, and gems and enchants stay on through tier upgrades. Their stats count while you hold the tool\n* **New: rivers and lakes**\n    * Winding rivers now run through the land, crossing chunk after chunk, and lakes dot the land, deepest in the middle. Each is made from the land it lies in: mossy beds in the bushland, sandy ones in the desert, and so on. Water in grassy and mossy lands grows seagrass and lily pads\n    * In tiers 5 and 6, some of the land has rivers and lakes of lava instead. Watch your step\n    * Trees, pillars and rocks in the way stay standing as little islands\n    * Rivers and lakes are always back in the same place when the land rebuilds after crumbling into the void\n    * Rivers flow downhill: as they wind through the rolling hills they step down in small waterfalls\n* **New: monsters no longer crawl through water**\n    * Hostile mobs now move through rivers and lakes almost as fast as on land, so jumping in the water won't shake them off\n* **New: rolling hills**\n    * The land now gently rises and falls, up to 3 blocks up or down, in long slow slopes. Rivers and lakes run through level valleys between them, and the land around spawn stays flat\n    * Buildings, outposts and dungeon entrances sit level on the hills, on a foundation made from the land around them, and never over a river or lake\n    * Outposts sit at the height of the ground around them rather than up on a raised block of land, and owned outposts come back at the same height after a restart\n    * The Halloween island and its Pumpkin Merchant stay where they belong: the hills no longer push the island's blocks up under the merchant\n* **New: Loot All for world boss hoards**\n    * A world boss's hoard now has a Loot All button on its bottom row. One click moves your whole share into your bags and inventory, and anything that doesn't fit stays in the hoard for you\n* **New: mountains**\n    * Very rarely, a mountain rises out of the rolling hills, up to 18 blocks high, with a rocky ridged peak. You might cross a few in a long journey, never near spawn\n    * A river that meets a mountain cuts a gorge right through it\n* **New: ravines**\n    * Rare, deep ravines now split the land, up to 15 blocks down, winding for over a hundred blocks\n    * Their walls are made of the land around them (sandstone in the desert, dirt under grass, and so on) and full of big veins of the area's tier ores: coal near spawn, then copper, iron and lapis, redstone, diamonds and emeralds, and nether quartz with the odd bit of ancient debris in tier 6\n    * Climb out on the ladders along the walls, or take the old mossy staircases up at either end\n* **Fix: off-hand critical hits now deal more damage instead of less**\n    * An off-hand crit dealt only its weapon's Crit Damage percent of the hit, so a weapon with +31.5% Crit Damage critted for under a third of its damage. Off-hand crits now deal 150% plus the weapon's Crit Damage, like your main-hand crits\n    * Gems socketed in your off-hand weapon now add their Crit Chance and Crit Damage to its off-hand strikes\n* **Fix: Thorns no longer sets off your scythe's cleave**\n    * Getting hit while holding a scythe used to spin a free cleave through every enemy around you. Now only your own swings cleave, as before\n* **Fix: Lord of the Dead's Lost Souls now fight for you instead of attacking you**\n    * Every 5 kills, 3 Lost Souls rise from the body and fight beside you for 10 seconds, going for whatever you're hitting. They can't be hurt, and every kill they get counts as yours\n    * It no longer uses up your Souls, so they're all kept for Soul Feast. Your held item shows how many kills until the next Lost Souls\n* **Fix: Soul Collector's ghost now fights for you**\n    * Your ghost hunts whatever you're fighting and its kills count as yours. Before, its hits on monsters did nothing, and it could turn on players\n    * You have one ghost at a time: another proc while it's out keeps it around longer instead. At rank 5 it stays until you die, change worlds or log off\n    * Max HP is still halved while the ghost is out, but it now always comes back to normal when the ghost leaves, even with several procs or if you log off\n* **Fix: your screen no longer shakes when your Energy Shield fills up**\n    * As your shield grew, the health bar made your camera shake and hearts flash as if you'd been hit. Now only real hits do that\n* **Fix: junk items stay junk**\n    * A Totem Splinter no longer saves you from death, and Ender Pearl Dust and the Cracked Return Pearl can't be thrown. Junk is only for selling\n* **Fix: blocks that fall off in your realm come back as building blocks**\n    * Ladders, doors, torches and carpets that drop because the block holding them was broken now come back as building blocks you can place again, like breaking them directly\n* **Fix: shop items no longer sell back for more than they cost**\n    * Grilled Salmon from the Food Merchant sells as normal food, and bots charge a little more for what they sell\n    * Three gems are now always worth more than the gem you'd forge from them. Tier 1 gems sell for more: 6 coins, and 120 for Sage Opal and Clover Jade\n    * Starter Gear can no longer be sold\n* **Fix: a server restart while you're on the death screen no longer wipes your gear**\n    * The items death protection saves for you are now kept safe through a restart, and come back when you respawn\n* **Change: banks reopen on the tab you were last on**\n    * Open your bank or guild bank within 3 minutes of closing it and it opens on the same tab. After that, it starts on Tab 1 again\n* **Change: Pack Rat boosts junk only**\n    * Pack Rat's bonus now applies to junk, as the talent says, not to everything you sell. Junk sold with the \"Sell from Inventory & Junk Bags\" button now gets the bonus too",
+  "version": "5.4b",
+  "date": "2026-11-07",
+  "title": null,
+  "markdown": "* **New: trophy fish**\n    * Every fish you reel in has a tiny chance to be a trophy fish, a little better at a hotspot. Weather and night-time species can be trophies too\n    * Each trophy has its own weight, from Hefty all the way up to Record-breaking, and the bigger it is, the more it's worth\n    * Sell them to the Item Seller for a big payday: around 800 coins for a Tier 1 trophy up to around 20,000 for a Tier 6 one, more for the biggest, and double for weather and time-of-day species\n    * Landing one is a show: the water erupts and your giant, glowing fish leaps out and tumbles through the air towards you, then hangs in front of you spinning in a ring of golden sparkles with its weight above it, before swooping into your arms. Record-breaking fish get fireworks too. Everyone nearby gets to see it\n* **New: spell scrolls get stronger with Inscription level**\n    * Spell scrolls you craft deal 2% more damage per Inscription level you have when you make them, just like potions get better with Alchemy level. A scroll crafted at level 60 hits for 120% more, and the bonus is shown on the scroll\n    * The bonus stays with the scroll, so a high-level scribe's scrolls keep their power when traded. Spell scrolls crafted at different levels don't stack. Scrolls from drops and spell tomes stay at their normal damage\n* **New: NPC camps**\n    * Out in Tiers 3 to 6 you can now stumble across a rare camp: a signal fire with smoke you can spot from a distance, tents, and a few NPCs camping out around it\n    * Every camper wears a random set of gear from that tier and carries random items from that tier. Right-click one to buy what they're carrying, or hire them to fight beside you like any other NPC\n    * Camps don't stay forever: once no players have been nearby for a few minutes, the campers pack up and move on\n    * Gear bought from NPCs now costs about what a vendor charges for that tier\n* **New: cliffs**\n    * Rarely, the land now rises in a sheer cliff, up to 14 blocks high and over a hundred blocks long, curving into a bay or out into a headland\n    * The face shows layers of rock with big veins of the area's tier ores in it. Behind it the high ground slopes gently back down, so you can walk up from either end or from behind and look out over the edge\n    * A river that meets a cliff cuts a gap right through it\n* **New: real mountains**\n    * Rare mountains now tower up to 90 blocks over the land, about 400 blocks across, with ridged peaks and bare rock faces full of big veins of the area's tier ores. You can walk all the way to the top for the view\n    * Rivers run dry before they reach one, so nothing splits them, and the sky castles always float well above them\n    * High up the trees give way to bare rock, and the tallest peaks wear snow caps\n* **New: river bridges**\n    * Every so often a low bridge crosses a river: wooden ones in the early tiers, stone further out and dark blackstone or nether brick over the lava rivers, with lantern posts at each end\n* **New: landmark quests**\n    * A new kind of quest on the Quest Board: travel to a landmark. Climb down into a ravine, reach a mountain's summit, walk up a big hill, find a cliff or a river bridge\n    * You're given a map of the area with a red X on the spot (you need 1 free inventory slot). Your own marker shows on it once you get close\n    * The landmarks move every server restart, so the same quest leads somewhere new each time\n    * Up to 2 are on the board at a time, for different tiers, and you can take them again each time the board refreshes\n* **New: scripted landmark quests**\n    * Three bigger quests where the map leads you to a landmark and something happens when you arrive. Up to 2 are on the board at a time\n    * Ravine Ambush (tiers 3+): meet a wounded courier at the bottom of a ravine, then hold off the bandits who followed him and their chief\n    * Kaelith's Big Catch: Kaelith is fishing his lost gear out of a river. He catches something else\n    * Fallen Star: climb a mountain, watch a star fall out of a darkened sky, and deal with what crawls out of it. The impact blasts a scorched crater into the peak and throws the ground into the air, and the crater stays there until the next restart\n    * Friends on the same quest can join the same event, and each ends with loot boxes on the spot\n* **New: big lakes**\n    * Very rarely the land opens out into a huge lake, around 150 blocks across, with a shelving shore, deep water in the middle and often an island or two. Rivers run into them, and out in the lava lands they're lakes of lava\n* **New: meteors leave craters**\n    * Meteor showers now really hit the ground. The big meteors blast a burned crater with a scorched, smoking floor and a broken rim, and leave a chunky 2x2 node of ore standing in the middle for you to mine. The smaller ones scorch the ground where they land\n    * Meteors pick open, level ground to land on and steer clear of doors, paths, ladders, buildings and water, so a crater never blocks a way in\n* **New talent: Cartographer** (Utility)\n    * A one-rank talent for 5 talent points. Use **/map** out in the Void to draw a map of the land around you for 100 Void Coins\n    * The map shows everything within 256 blocks of you at once, rivers, ravines, mountains and all, even land nobody has walked on yet, with a pointer showing where you are\n    * Each map lasts 60 minutes and then fades away. You can hand one to a friend, and you can have up to 3 at a time\n* **Fix: dungeon entrances and buildings no longer spawn inside outposts**\n    * A dungeon entrance or a building could appear in the middle of an outpost and tear a hole to the void in its floor. Now they always spawn apart\n* **Fix: no more holes to the void in ravines**\n    * Where a ravine cut through a rare chunk, like a desert pond, you could sometimes see straight down into the void beside it. The ravine now seals the ground it cuts through, and the deep mine and cave chunks don't spawn where a ravine runs\n* **Fix: bandits no longer get stuck in walls**\n    * Bandits and NPCs now keep their whole body clear of walls and slide along them instead of sinking in, so a hit can't knock them inside one any more\n    * Leaps, blinks and shadowsteps no longer carry a bandit through a wall\n* **Fix: Fallen Star monsters no longer get stuck in blocks**\n    * The star now spits its monsters out: each one bursts up out of the core and is flung clear of the crater before it comes for you\n* **Change: killing players in a row costs more reputation each time**\n    * Every Lawful or Neutral player you kill in a row costs 50% more of the usual loss: a Neutral player costs -100, then -150, then -200, and a Lawful player -150, then -225, then -300\n    * Your streak resets after 30 minutes without killing a Lawful or Neutral player, and logging out won't clear it. Killing Chaotic players doesn't count\n* **Change: the void collapses half as often**\n    * The server now restarts once every 24 hours instead of every 12, so the Void Collapse comes round once a day\n* **Change: menus close just before a restart**\n    * 5 seconds before the server restarts, every open menu closes (profession tables, the forge, bags and so on) and anything you had in one goes back to your inventory, so nothing gets lost, ironman or not. Menus stay shut until the restart\n* **Change: ironmen can claim server mail**\n    * Ironman characters can now take items and coins from server mail, like event rewards and gifts from the team. Mail from other players is still off limits\n    * Your mailbox now marks each letter as server mail or player mail\n* **Change: the old mountains are now hills**\n    * The rocky hills of up to 18 blocks that came with the Void Terrain Update are still around, now as big hills next to the real mountains",
   "sections": [
     {
       "title": null,
       "entries": [
         {
-          "text": "**New: bandits in tiers 5 and 6 hunt in packs**",
+          "text": "**New: trophy fish**",
           "children": [
             {
-              "text": "In tier 5, 2 to 3 bandits drop in together; in tier 6, 3 to 4",
+              "text": "Every fish you reel in has a tiny chance to be a trophy fish, a little better at a hotspot. Weather and night-time species can be trophies too",
               "children": []
             },
             {
-              "text": "A pack roams behind its leader and fights as one: hit one and the rest come running, they all go for the same player, and if one of them can see you, the whole pack knows where you are",
+              "text": "Each trophy has its own weight, from Hefty all the way up to Record-breaking, and the bigger it is, the more it's worth",
               "children": []
             },
             {
-              "text": "Melee bandits in a pack surround you, coming in from the front, both sides and behind",
+              "text": "Sell them to the Item Seller for a big payday: around 800 coins for a Tier 1 trophy up to around 20,000 for a Tier 6 one, more for the biggest, and double for weather and time-of-day species",
+              "children": []
+            },
+            {
+              "text": "Landing one is a show: the water erupts and your giant, glowing fish leaps out and tumbles through the air towards you, then hangs in front of you spinning in a ring of golden sparkles with its weight above it, before swooping into your arms. Record-breaking fish get fireworks too. Everyone nearby gets to see it",
               "children": []
             }
           ]
         },
         {
-          "text": "**New: no more dropping your best gear by accident**",
+          "text": "**New: spell scrolls get stronger with Inscription level**",
           "children": [
             {
-              "text": "Gear you've upgraded, reforged, put runes on or socketed gems into, your profession tools and your bags now need a quick double tap of Q to drop. The first press just asks you to press again",
+              "text": "Spell scrolls you craft deal 2% more damage per Inscription level you have when you make them, just like potions get better with Alchemy level. A scroll crafted at level 60 hits for 120% more, and the bonus is shown on the scroll",
+              "children": []
+            },
+            {
+              "text": "The bonus stays with the scroll, so a high-level scribe's scrolls keep their power when traded. Spell scrolls crafted at different levels don't stack. Scrolls from drops and spell tomes stay at their normal damage",
               "children": []
             }
           ]
         },
         {
-          "text": "**New: profession tools take gems and enchants**",
+          "text": "**New: NPC camps**",
           "children": [
             {
-              "text": "Every profession tool, Watering Can included, now has a gem socket. A tool takes gems up to its own tier (a Novice tool takes Tier 1 gems, a Legendary tool any tier), and a Socket Conduit can reroll it to more sockets like any gear",
+              "text": "Out in Tiers 3 to 6 you can now stumble across a rare camp: a signal fire with smoke you can spot from a distance, tents, and a few NPCs camping out around it",
               "children": []
             },
             {
-              "text": "Enchants on a tool go up to its tier too: Novice tools get level I, Apprentice up to II, and so on to VI for Legendary",
+              "text": "Every camper wears a random set of gear from that tier and carries random items from that tier. Right-click one to buy what they're carrying, or hire them to fight beside you like any other NPC",
               "children": []
             },
             {
-              "text": "Enchants on tools no longer vanish the next time the tool gains XP, and gems and enchants stay on through tier upgrades. Their stats count while you hold the tool",
+              "text": "Camps don't stay forever: once no players have been nearby for a few minutes, the campers pack up and move on",
+              "children": []
+            },
+            {
+              "text": "Gear bought from NPCs now costs about what a vendor charges for that tier",
               "children": []
             }
           ]
         },
         {
-          "text": "**New: rivers and lakes**",
+          "text": "**New: cliffs**",
           "children": [
             {
-              "text": "Winding rivers now run through the land, crossing chunk after chunk, and lakes dot the land, deepest in the middle. Each is made from the land it lies in: mossy beds in the bushland, sandy ones in the desert, and so on. Water in grassy and mossy lands grows seagrass and lily pads",
+              "text": "Rarely, the land now rises in a sheer cliff, up to 14 blocks high and over a hundred blocks long, curving into a bay or out into a headland",
               "children": []
             },
             {
-              "text": "In tiers 5 and 6, some of the land has rivers and lakes of lava instead. Watch your step",
+              "text": "The face shows layers of rock with big veins of the area's tier ores in it. Behind it the high ground slopes gently back down, so you can walk up from either end or from behind and look out over the edge",
               "children": []
             },
             {
-              "text": "Trees, pillars and rocks in the way stay standing as little islands",
-              "children": []
-            },
-            {
-              "text": "Rivers and lakes are always back in the same place when the land rebuilds after crumbling into the void",
-              "children": []
-            },
-            {
-              "text": "Rivers flow downhill: as they wind through the rolling hills they step down in small waterfalls",
+              "text": "A river that meets a cliff cuts a gap right through it",
               "children": []
             }
           ]
         },
         {
-          "text": "**New: monsters no longer crawl through water**",
+          "text": "**New: real mountains**",
           "children": [
             {
-              "text": "Hostile mobs now move through rivers and lakes almost as fast as on land, so jumping in the water won't shake them off",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New: rolling hills**",
-          "children": [
-            {
-              "text": "The land now gently rises and falls, up to 3 blocks up or down, in long slow slopes. Rivers and lakes run through level valleys between them, and the land around spawn stays flat",
+              "text": "Rare mountains now tower up to 90 blocks over the land, about 400 blocks across, with ridged peaks and bare rock faces full of big veins of the area's tier ores. You can walk all the way to the top for the view",
               "children": []
             },
             {
-              "text": "Buildings, outposts and dungeon entrances sit level on the hills, on a foundation made from the land around them, and never over a river or lake",
+              "text": "Rivers run dry before they reach one, so nothing splits them, and the sky castles always float well above them",
               "children": []
             },
             {
-              "text": "Outposts sit at the height of the ground around them rather than up on a raised block of land, and owned outposts come back at the same height after a restart",
+              "text": "High up the trees give way to bare rock, and the tallest peaks wear snow caps",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**New: river bridges**",
+          "children": [
+            {
+              "text": "Every so often a low bridge crosses a river: wooden ones in the early tiers, stone further out and dark blackstone or nether brick over the lava rivers, with lantern posts at each end",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**New: landmark quests**",
+          "children": [
+            {
+              "text": "A new kind of quest on the Quest Board: travel to a landmark. Climb down into a ravine, reach a mountain's summit, walk up a big hill, find a cliff or a river bridge",
               "children": []
             },
             {
-              "text": "The Halloween island and its Pumpkin Merchant stay where they belong: the hills no longer push the island's blocks up under the merchant",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New: Loot All for world boss hoards**",
-          "children": [
-            {
-              "text": "A world boss's hoard now has a Loot All button on its bottom row. One click moves your whole share into your bags and inventory, and anything that doesn't fit stays in the hoard for you",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New: mountains**",
-          "children": [
-            {
-              "text": "Very rarely, a mountain rises out of the rolling hills, up to 18 blocks high, with a rocky ridged peak. You might cross a few in a long journey, never near spawn",
+              "text": "You're given a map of the area with a red X on the spot (you need 1 free inventory slot). Your own marker shows on it once you get close",
               "children": []
             },
             {
-              "text": "A river that meets a mountain cuts a gorge right through it",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**New: ravines**",
-          "children": [
-            {
-              "text": "Rare, deep ravines now split the land, up to 15 blocks down, winding for over a hundred blocks",
+              "text": "The landmarks move every server restart, so the same quest leads somewhere new each time",
               "children": []
             },
             {
-              "text": "Their walls are made of the land around them (sandstone in the desert, dirt under grass, and so on) and full of big veins of the area's tier ores: coal near spawn, then copper, iron and lapis, redstone, diamonds and emeralds, and nether quartz with the odd bit of ancient debris in tier 6",
+              "text": "Up to 2 are on the board at a time, for different tiers, and you can take them again each time the board refreshes",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**New: scripted landmark quests**",
+          "children": [
+            {
+              "text": "Three bigger quests where the map leads you to a landmark and something happens when you arrive. Up to 2 are on the board at a time",
               "children": []
             },
             {
-              "text": "Climb out on the ladders along the walls, or take the old mossy staircases up at either end",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fix: off-hand critical hits now deal more damage instead of less**",
-          "children": [
-            {
-              "text": "An off-hand crit dealt only its weapon's Crit Damage percent of the hit, so a weapon with +31.5% Crit Damage critted for under a third of its damage. Off-hand crits now deal 150% plus the weapon's Crit Damage, like your main-hand crits",
+              "text": "Ravine Ambush (tiers 3+): meet a wounded courier at the bottom of a ravine, then hold off the bandits who followed him and their chief",
               "children": []
             },
             {
-              "text": "Gems socketed in your off-hand weapon now add their Crit Chance and Crit Damage to its off-hand strikes",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fix: Thorns no longer sets off your scythe's cleave**",
-          "children": [
-            {
-              "text": "Getting hit while holding a scythe used to spin a free cleave through every enemy around you. Now only your own swings cleave, as before",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fix: Lord of the Dead's Lost Souls now fight for you instead of attacking you**",
-          "children": [
-            {
-              "text": "Every 5 kills, 3 Lost Souls rise from the body and fight beside you for 10 seconds, going for whatever you're hitting. They can't be hurt, and every kill they get counts as yours",
+              "text": "Kaelith's Big Catch: Kaelith is fishing his lost gear out of a river. He catches something else",
               "children": []
             },
             {
-              "text": "It no longer uses up your Souls, so they're all kept for Soul Feast. Your held item shows how many kills until the next Lost Souls",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fix: Soul Collector's ghost now fights for you**",
-          "children": [
-            {
-              "text": "Your ghost hunts whatever you're fighting and its kills count as yours. Before, its hits on monsters did nothing, and it could turn on players",
+              "text": "Fallen Star: climb a mountain, watch a star fall out of a darkened sky, and deal with what crawls out of it. The impact blasts a scorched crater into the peak and throws the ground into the air, and the crater stays there until the next restart",
               "children": []
             },
             {
-              "text": "You have one ghost at a time: another proc while it's out keeps it around longer instead. At rank 5 it stays until you die, change worlds or log off",
+              "text": "Friends on the same quest can join the same event, and each ends with loot boxes on the spot",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**New: big lakes**",
+          "children": [
+            {
+              "text": "Very rarely the land opens out into a huge lake, around 150 blocks across, with a shelving shore, deep water in the middle and often an island or two. Rivers run into them, and out in the lava lands they're lakes of lava",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**New: meteors leave craters**",
+          "children": [
+            {
+              "text": "Meteor showers now really hit the ground. The big meteors blast a burned crater with a scorched, smoking floor and a broken rim, and leave a chunky 2x2 node of ore standing in the middle for you to mine. The smaller ones scorch the ground where they land",
               "children": []
             },
             {
-              "text": "Max HP is still halved while the ghost is out, but it now always comes back to normal when the ghost leaves, even with several procs or if you log off",
+              "text": "Meteors pick open, level ground to land on and steer clear of doors, paths, ladders, buildings and water, so a crater never blocks a way in",
               "children": []
             }
           ]
         },
         {
-          "text": "**Fix: your screen no longer shakes when your Energy Shield fills up**",
+          "text": "**New talent: Cartographer** (Utility)",
           "children": [
             {
-              "text": "As your shield grew, the health bar made your camera shake and hearts flash as if you'd been hit. Now only real hits do that",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fix: junk items stay junk**",
-          "children": [
-            {
-              "text": "A Totem Splinter no longer saves you from death, and Ender Pearl Dust and the Cracked Return Pearl can't be thrown. Junk is only for selling",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fix: blocks that fall off in your realm come back as building blocks**",
-          "children": [
-            {
-              "text": "Ladders, doors, torches and carpets that drop because the block holding them was broken now come back as building blocks you can place again, like breaking them directly",
-              "children": []
-            }
-          ]
-        },
-        {
-          "text": "**Fix: shop items no longer sell back for more than they cost**",
-          "children": [
-            {
-              "text": "Grilled Salmon from the Food Merchant sells as normal food, and bots charge a little more for what they sell",
+              "text": "A one-rank talent for 5 talent points. Use **/map** out in the Void to draw a map of the land around you for 100 Void Coins",
               "children": []
             },
             {
-              "text": "Three gems are now always worth more than the gem you'd forge from them. Tier 1 gems sell for more: 6 coins, and 120 for Sage Opal and Clover Jade",
+              "text": "The map shows everything within 256 blocks of you at once, rivers, ravines, mountains and all, even land nobody has walked on yet, with a pointer showing where you are",
               "children": []
             },
             {
-              "text": "Starter Gear can no longer be sold",
+              "text": "Each map lasts 60 minutes and then fades away. You can hand one to a friend, and you can have up to 3 at a time",
               "children": []
             }
           ]
         },
         {
-          "text": "**Fix: a server restart while you're on the death screen no longer wipes your gear**",
+          "text": "**Fix: dungeon entrances and buildings no longer spawn inside outposts**",
           "children": [
             {
-              "text": "The items death protection saves for you are now kept safe through a restart, and come back when you respawn",
+              "text": "A dungeon entrance or a building could appear in the middle of an outpost and tear a hole to the void in its floor. Now they always spawn apart",
               "children": []
             }
           ]
         },
         {
-          "text": "**Change: banks reopen on the tab you were last on**",
+          "text": "**Fix: no more holes to the void in ravines**",
           "children": [
             {
-              "text": "Open your bank or guild bank within 3 minutes of closing it and it opens on the same tab. After that, it starts on Tab 1 again",
+              "text": "Where a ravine cut through a rare chunk, like a desert pond, you could sometimes see straight down into the void beside it. The ravine now seals the ground it cuts through, and the deep mine and cave chunks don't spawn where a ravine runs",
               "children": []
             }
           ]
         },
         {
-          "text": "**Change: Pack Rat boosts junk only**",
+          "text": "**Fix: bandits no longer get stuck in walls**",
           "children": [
             {
-              "text": "Pack Rat's bonus now applies to junk, as the talent says, not to everything you sell. Junk sold with the \"Sell from Inventory & Junk Bags\" button now gets the bonus too",
+              "text": "Bandits and NPCs now keep their whole body clear of walls and slide along them instead of sinking in, so a hit can't knock them inside one any more",
+              "children": []
+            },
+            {
+              "text": "Leaps, blinks and shadowsteps no longer carry a bandit through a wall",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**Fix: Fallen Star monsters no longer get stuck in blocks**",
+          "children": [
+            {
+              "text": "The star now spits its monsters out: each one bursts up out of the core and is flung clear of the crater before it comes for you",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**Change: killing players in a row costs more reputation each time**",
+          "children": [
+            {
+              "text": "Every Lawful or Neutral player you kill in a row costs 50% more of the usual loss: a Neutral player costs -100, then -150, then -200, and a Lawful player -150, then -225, then -300",
+              "children": []
+            },
+            {
+              "text": "Your streak resets after 30 minutes without killing a Lawful or Neutral player, and logging out won't clear it. Killing Chaotic players doesn't count",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**Change: the void collapses half as often**",
+          "children": [
+            {
+              "text": "The server now restarts once every 24 hours instead of every 12, so the Void Collapse comes round once a day",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**Change: menus close just before a restart**",
+          "children": [
+            {
+              "text": "5 seconds before the server restarts, every open menu closes (profession tables, the forge, bags and so on) and anything you had in one goes back to your inventory, so nothing gets lost, ironman or not. Menus stay shut until the restart",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**Change: ironmen can claim server mail**",
+          "children": [
+            {
+              "text": "Ironman characters can now take items and coins from server mail, like event rewards and gifts from the team. Mail from other players is still off limits",
+              "children": []
+            },
+            {
+              "text": "Your mailbox now marks each letter as server mail or player mail",
+              "children": []
+            }
+          ]
+        },
+        {
+          "text": "**Change: the old mountains are now hills**",
+          "children": [
+            {
+              "text": "The rocky hills of up to 18 blocks that came with the Void Terrain Update are still around, now as big hills next to the real mountains",
               "children": []
             }
           ]

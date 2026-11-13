@@ -1,5 +1,5 @@
 # Void Rush Changelog
-## 5.4b 11/07/2026
+## 5.4b 11/12/2026
 * **New: trophy fish**
     * Every fish you reel in has a tiny chance to be a trophy fish, a little better at a hotspot. Weather and night-time species can be trophies too
     * Each trophy has its own weight, from Hefty all the way up to Record-breaking, and the bigger it is, the more it's worth
